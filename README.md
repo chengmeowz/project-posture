@@ -55,7 +55,7 @@ $ npm install --global project-posture-[placeholder]
 ## Maintainers_Developers
 
 [@ChengZheng](https://github.com/chengmeowz).
-@SunnyQu
+[@SunnyQu](https://github.com/suii-bit)
 
 ## Contributing
 
