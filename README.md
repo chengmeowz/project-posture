@@ -31,7 +31,7 @@ The calculation for variables is based on
 ### Step_1
 Discrete Variable Calculations
 
-- [ ] Convert all txt files in data_txt folders to csv using Python.
+- [ ] Convert all txt files in the data_txt folder to csv using Python.
 - [ ] Calculate the variables using numpy and pandas in Python.
 
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?raw=true)
