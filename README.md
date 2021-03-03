@@ -18,8 +18,8 @@ The calculation for variables is based on
 ## Table of Contents
 
 - [Progress](#progress)
-   	- [Step 1](#step 1)
-   	- [Step 2](#step 2)
+   	- [Step 1](#step1)
+   	- [Step 2](#step2)
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers/Developers](#maintainers/developers)
@@ -28,13 +28,13 @@ The calculation for variables is based on
 
 ## Progress
 
-### Step 1
+### Step1
 Discrete Variable Calculations
 
 - [ ] Calculate the variables using Python.
-![alt text](https://images.app.goo.gl/o7nUTfKCMxpyw5gM9)
+![alt text](https://github.com/chengmeowz/project-posture/blob/[branch]/image.jpg?raw=true)
 
-### Step 2
+### Step2
 Exploratory Analysis/Machine Learning
 
 ## Install
