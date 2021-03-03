@@ -1,6 +1,6 @@
 # Project Posture
 [![license](https://img.shields.io/github/license/chengmeowz/project-posture.svg)](https://github.com/chengmeowz/project-posture/blob/main/LICENSE)
-[![author](https://img.shields.io/badge/Author-Cheng&Sunny-blue.svg)]
+![author](https://img.shields.io/badge/Author-Cheng&Sunny-blue.svg)
 
 Project Posture is a project based on Python language development. Its purpose is to investigate for linear and/or non-linear relationships between various posturography (i.e., standing balance) and self-reported physical activity metrics. The project is under development.
 
