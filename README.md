@@ -32,6 +32,7 @@ The calculation for variables is based on
 Discrete Variable Calculations
 
 - [ ] Calculate the variables using Python.
+
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?raw=true)
 
 ### Step2
