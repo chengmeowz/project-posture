@@ -3,7 +3,8 @@
 Project Posture is a project based on Python language development. Its purpose is to investigate for linear and/or non-linear associations between various posturography and self-reported physical activity metrics using data analytics, machine learning, and/or related techniques/processes. The project is under development.
 
 [![license](https://img.shields.io/github/license/chengmeowz/project-posture.svg)](https://github.com/chengmeowz/project-posture/blob/main/LICENSE)
-![author](https://img.shields.io/badge/Author-Cheng&Sunny-blue.svg)
+![author](https://img.shields.io/badge/Author-Cheng-blue.svg)
+![author](https://img.shields.io/badge/Author-Sunny-blue.svg)
 
 The data for this project is from 
 * [Santos, D. & Duarte, M. (2016). A public data set of human balance evaluations. PeerJ, 4, e2648. doi: 10.7717/peerj.2648.](https://peerj.com/articles/2648/).
