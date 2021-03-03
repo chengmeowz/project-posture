@@ -18,24 +18,24 @@ The calculation for variables is based on
 ## Table of Contents
 
 - [Progress](#progress)
-   	- [Step 1](#step1)
+   	- [Step 1](#step_1)
    	- [Step 2](#step2)
 - [Install](#install)
 - [Usage](#usage)
-- [Maintainers/Developers](#maintainers/developers)
+- [Maintainers/Developers](#maintainers_developers)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Progress
 
-### Step1
+### Step_1
 Discrete Variable Calculations
 
 - [ ] Calculate the variables using Python.
 
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?raw=true)
 
-### Step2
+### Step_2
 Exploratory Analysis/Machine Learning
 
 ## Install
@@ -51,7 +51,7 @@ $ npm install --global project-posture-[placeholder]
 ```
 ```
 
-## Maintainers/Developers
+## Maintainers_Developers
 
 [@ChengZheng](https://github.com/chengmeowz).
 @SunnyQu
