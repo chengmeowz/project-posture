@@ -29,15 +29,16 @@ The calculation for variables is based on
 ## Progress
 
 ### Step_1
-Discrete Variable Calculations
+Discrete Variable Calculations (completed by Dr. Watanabe)
 
-- [ ] Convert all txt files in the data_txt folder to csv using Python.
-- [ ] Calculate the variables using numpy and pandas in Python.
+- [X] Calculate the variables using numpy, pandas, matplotlib.pyplot, zipfile, and welch from scipy.signal in Python.
 
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?raw=true)
 
 ### Step_2
 Exploratory Analysis/Machine Learning
+
+- [ ] Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
 
 ## Install
 
