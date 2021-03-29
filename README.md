@@ -63,7 +63,7 @@ $ npm install --global project-posture-[placeholder]
 
 ## Contributing
 
-This project is supervised by Prof. [Fabien Scalzo](https://seaver.pepperdine.edu/academics/faculty/fabien-scalzo/) from Pepperdine University, co-advised by Prof. [Adam Pennell](https://seaver.pepperdine.edu/academics/faculty/adam-pennell/) from Pepperdine University, and assisted by Dr. [Renato Naville Watanabe](http://ebm.ufabc.edu.br/docentes/renato/) and [his github](https://github.com/rnwatanabe) from Federal University of ABC.
+This project is supervised by Prof. [Fabien Scalzo](https://seaver.pepperdine.edu/academics/faculty/fabien-scalzo/) from Pepperdine University, co-advised by Prof. [Adam Pennell](https://seaver.pepperdine.edu/academics/faculty/adam-pennell/) from Pepperdine University, and assisted by Dr. [Renato Naville Watanabe](http://ebm.ufabc.edu.br/docentes/renato/) ([his github](https://github.com/rnwatanabe)) from Federal University of ABC.
 
 ## License
 
