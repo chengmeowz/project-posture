@@ -35,6 +35,8 @@ Discrete Variable Calculations (completed by Dr. Watanabe)
 
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?raw=true)
 
+[copMeasures.ipynb](https://colab.research.google.com/drive/1oOHwtgAxazdcARhygBb5DLKYAf-HDTT8?usp=sharing#scrollTo=8MrFIHv6OpQu) (a file contains Python code for the variables calculation)
+
 ### Step_2
 Exploratory Analysis/Machine Learning
 
