@@ -1,6 +1,6 @@
 # Project Posture
 
-Project Posture is a project for COSC 495 Senior Capstone from Pepperdine University taught by Professor Fabien Scalzo based on Python language development. Its purpose is to investigate for linear and/or non-linear associations between various posturography and self-reported physical activity metrics using data analytics, machine learning, and/or related techniques/processes. The project is under development.
+Project Posture is a project for COSC 495 Senior Capstone from Pepperdine University taught by Professor [Fabien Scalzo](http://web.cs.ucla.edu/~fab/) based on Python language development. Its purpose is to investigate for linear and/or non-linear associations between various posturography and self-reported physical activity metrics using data analytics, machine learning, and/or related techniques/processes. The project is under development.
 
 [![license](https://img.shields.io/github/license/chengmeowz/project-posture.svg)](https://github.com/chengmeowz/project-posture/blob/main/LICENSE)
 ![author](https://img.shields.io/badge/Author-Cheng&Sunny-blue.svg)
