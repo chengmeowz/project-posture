@@ -44,7 +44,17 @@ The calculation for variables is based on
 
 ## Install
 
-This project uses [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
+Download or clone this repository.
+
+Make sure Python 3 is installed on your machine. The following packages are used in the scripts.
+
+* [matplotlib](https://matplotlib.org/)
+* [numpy](https://numpy.org/)
+* [pandas](https://pandas.pydata.org/)
+* [scipy](https://www.scipy.org/)
+* [zipfile](https://docs.python.org/3/library/zipfile.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/zipfile.py))
+
+This project possibly will use [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
 
 ```
 sh
