@@ -18,8 +18,8 @@ The calculation for variables is based on
 ## Table of Contents
 
 - [Progress](#progress)
-   	- [Step 1 Discrete Variable Calculations](#step_1)
-   	- [Step 2 Exploratory Analysis/Machine Learning](#step_2)
+   	- [Step 1: Discrete Variable Calculations](#step_1)
+   	- [Step 2: Exploratory Analysis/Machine Learning](#step_2)
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers/Developers](#maintainers_developers)
