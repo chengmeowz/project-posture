@@ -45,7 +45,7 @@ The calculation for variables is based on
 
 **Temporary schedule**
 
-```diff ! Orange = YOUR DUE!!!</div> ```
+```diff ! Orange = YOUR DUE!!! ```
 ```diff @@ Purple = meet w/ Scalzo @@ ```
 ```diff + Green = meet w/ each other ```
 
