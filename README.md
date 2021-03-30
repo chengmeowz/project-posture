@@ -45,9 +45,9 @@ The calculation for variables is based on
 
 **Temporary schedule**
 
-* ```diff ! Orange = YOUR DUE!!!</div> ```
-* ```diff @@ Purple = meet w/ Scalzo @@ ```
-* ```diff + Green = meet w/ each other ```
+```diff ! Orange = YOUR DUE!!!</div> ```
+```diff @@ Purple = meet w/ Scalzo @@ ```
+```diff + Green = meet w/ each other ```
 
 ```diff
 @@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
