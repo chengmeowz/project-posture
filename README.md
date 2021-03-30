@@ -129,7 +129,7 @@ The calculation for variables is based on
 + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
 ```
 
-<br/><h3>*Practicing Presentation.*</h3><br/>
+<h3>*Practicing Presentation.*</h3>
 
 ```diff 
 + Rehearsal (8 am, May. 11, Beijing Time) 
