@@ -8,7 +8,7 @@ Project Posture is a project for COSC 495 Senior Capstone from Pepperdine Univer
 ! Orange
 @@ Pink @@
 # Gray
-...
+```
 
 [![license](https://img.shields.io/github/license/chengmeowz/project-posture.svg)](https://github.com/chengmeowz/project-posture/blob/main/LICENSE)
 ![author](https://img.shields.io/badge/Author-Cheng&Sunny-blue.svg)
