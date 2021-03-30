@@ -130,13 +130,13 @@ The calculation for variables is based on
 + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
 ```
 
-<h3>*Practicing Presentation.* :-O </h3>
+<h4>Practicing Presentation :-O </h4>
 
 ```diff 
 + Rehearsal (8 am, May. 11, Beijing Time) 
 ```
 
-<h1>【The Day】XD <br/>
+<h1>【The Day】─=≡Σ(((つ•̀ω•́)つ <br/>
    Natural Science Seminar, 3 am, May 12, Beijing Time.</h1>
 
 ## Install
