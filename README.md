@@ -40,7 +40,65 @@ The calculation for variables is based on
 ### Step_2
 **Exploratory Analysis/Machine Learning**
 
-- [ ] Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
+* Overall Goal: Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
+* Used Model: [placeholder]
+
+**Temporary schedule**
+* <h3 style="color:#B22222">Red = YOUR DUE!!!</h3>
+* <h3 style="color:#4169E1">Blue = meet w/ Scalzo</h3>
+* <h3 style="color:#32CD32">Green = meet w/ each other</h3>
+
+<h3 style="color:#4169E1">Organize ideas & questions for Scalzoand/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time)</h3>
+
+1. We set X as Total Area (cm²), Y as MVPA_minutes.week.
+
+<h3 style="color:#B22222">Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)</h3>
+- [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
+<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 5, Beijing Time)</h3>
+
+<h3 style="color:#B22222">Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)</h3>
+- [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create a model in (place holder)
+<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 14, Beijing Time)</h3>
+<h3 style="color:#4169E1">Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time)</h3>
+
+<h3 style="color:#B22222">Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)</h3>
+- [ ] 
+<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 21, Beijing Time)</h3>
+<h3 style="color:#4169E1">Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time)</h3>
+
+***Congratulations! Stage 1 clear.***
+
+2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
+
+<h3 style="color:#B22222">Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)</h3>
+- [ ] Step 3
+
+<h3 style="color:#B22222">Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)</h3>
+- [ ] Step 4
+<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 27/28, Beijing Time)</h3>
+<h3 style="color:#4169E1">Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time)</h3>
+
+***Congratulations! Goodbye, MVPA_minutes.week.***
+
+*(Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A)*
+
+3. - [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
+4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
+<h3 style="color:#B22222">C&S (Deadline: 12:00 pm, May. 7, Beijing Time)</h3>
+* Total Forms = 8.
+* <h3 style="color:#32CD32">Sum Up (11:55 pm, May. 7, Beijing Time)</h3>
+<h3 style="color:#4169E1">Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time)</h3>
+
+***Project Finished.***
+
+<h3 style="color:#32CD32">Decide presentation content & assign time check (12 pm, May. 8, Beijing Time)</h3>
+
+*Practicing Presentation.*
+
+<h3 style="color:#32CD32">Rehearsal (8 am, May. 11, Beijing Time)</h3>
+
+<h3 style="color:FF0000">****【The Day】****</h3>
+<h3 style="color:FF0000">****Natural Science Seminar, 3 am, May 12, Beijing Time.****</h3>
 
 ## Install
 
