@@ -43,7 +43,7 @@ The calculation for variables is based on
 * Overall Goal: Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
 * Used Model: [placeholder]
 
-**Temporary schedule**
+<h2>**Temporary schedule**</h2>
 
 ```diff 
 ! Orange = YOUR DUE!!! 
@@ -79,7 +79,7 @@ The calculation for variables is based on
 @@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
 ```
 
-***Congratulations! Stage 1 clear.***
+<h3>***Congratulations! Stage 1 clear.***</h3>
 
 ```diff
 2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
@@ -98,8 +98,7 @@ The calculation for variables is based on
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
 ```
 
-***Congratulations! Goodbye, MVPA_minutes.week.***
-
+<h3>***Congratulations! Goodbye, MVPA_minutes.week.***</h3>
 
 ```diff 
 # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
@@ -118,7 +117,7 @@ The calculation for variables is based on
 @@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
 ```
 
-***Project Finished.***
+<h3>***Project Finished.***</h3>
 
 ```diff 
 + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
@@ -130,8 +129,8 @@ The calculation for variables is based on
 + Rehearsal (8 am, May. 11, Beijing Time) 
 ```
 
-<h2>***【The Day】***</h2>
-<h2>Natural Science Seminar, 3 am, May 12, Beijing Time.</h2>
+<h1>***【The Day】***
+   Natural Science Seminar, 3 am, May 12, Beijing Time.</h1>
 
 ## Install
 
