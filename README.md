@@ -105,8 +105,9 @@ The calculation for variables is based on
 # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
 ```
 
-3. - [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
-4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
+- [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
+
+- [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
 ```diff
 ! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
 # Total Forms = 8.
