@@ -44,11 +44,12 @@ The calculation for variables is based on
 * Used Model: [placeholder]
 
 **Temporary schedule**
-```diff
-! * Orange = YOUR DUE!!!</div>
-@@ * <div class="text-Purple">Purple = meet w/ Scalzo @@
-+ * Green = meet w/ each other
 
+* ```diff ! Orange = YOUR DUE!!!</div> ```
+* ```diff @@ Purple = meet w/ Scalzo @@ ```
+* ```diff + Green = meet w/ each other ```
+
+```diff
 @@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
 
 1. We set X as Total Area (cm²), Y as MVPA_minutes.week.
@@ -66,9 +67,11 @@ The calculation for variables is based on
 - [ ] 
 + Discuss code & form. (8 am, Apr. 21, Beijing Time)
 @@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
+```
 
 ***Congratulations! Stage 1 clear.***
 
+```diff
 2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
 
 ! Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)
@@ -78,29 +81,32 @@ The calculation for variables is based on
 - [ ] Step 4
 + Discuss code & form. (8 am, Apr. 27/28, Beijing Time)
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
+```
 
 ***Congratulations! Goodbye, MVPA_minutes.week.***
 
-# *(Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A)*
 
+*```diff # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) ```*
+
+```diff
 3. - [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
 4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
 ! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
 * Total Forms = 8.
 * <div class="text-green">Sum Up (11:55 pm, May. 7, Beijing Time)</div>
 @@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
+```
 
 ***Project Finished.***
 
-+ Decide presentation content & assign time check (12 pm, May. 8, Beijing Time)
+```diff + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) ```
 
 *Practicing Presentation.*
 
-+ Rehearsal (8 am, May. 11, Beijing Time)
+```diff + Rehearsal (8 am, May. 11, Beijing Time) ```
 
-- ****【The Day】****
-- **** Natural Science Seminar, 3 am, May 12, Beijing Time. ****
-```
+****```diff - 【The Day】```****
+****```diff - Natural Science Seminar, 3 am, May 12, Beijing Time. ```****
 
 ## Install
 
