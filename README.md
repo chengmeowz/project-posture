@@ -40,8 +40,8 @@ The calculation for variables is based on
 ### Step_2
 **Exploratory Analysis/Machine Learning**
 
-* Overall Goal: Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
-* Used Model: [placeholder]
+* 【Overall Goal】 Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
+* 【Used Models】 placeholder
 
 <h2>Temporary schedule</h2>
 
@@ -61,29 +61,33 @@ The calculation for variables is based on
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 ```diff 
 + Discuss code & form. (8 am, Apr. 5, Beijing Time)
-
+```
+```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
 ```
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create a model in (place holder)
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
-
+```
+```diff
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time) @@
-
+```
+```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
 ```
-- [ ] 
+- [ ] placeholder
 ```diff 
 + Discuss code & form. (8 am, Apr. 21, Beijing Time)
-
+```
+```diff
 @@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
 ```
 
-<br/><h3>Congratulations! Stage 1 clear.</h3><br/>
+<h3>Congratulations! Stage 1 clear.</h3>
 
-```diff
+
 2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
-
+```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)
 ```
 - [ ] Step 3
@@ -94,11 +98,12 @@ The calculation for variables is based on
 - [ ] Step 4
 ```diff 
 + Discuss code & form. (8 am, Apr. 27/28, Beijing Time)
-
+```
+```diff
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
 ```
 
-<br/><h3>Congratulations! Goodbye, MVPA_minutes.week.</h3><br/>
+<h3>Congratulations! Goodbye, MVPA_minutes.week.</h3>
 
 ```diff 
 # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
@@ -113,11 +118,12 @@ The calculation for variables is based on
 ```
 ```diff
 + Sum Up (11:55 pm, May. 7, Beijing Time)
-
+```
+```diff
 @@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
 ```
 
-<br/><h3>Project Finished.</h3><br/>
+<h3>Project Finished.</h3>
 
 ```diff 
 + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
