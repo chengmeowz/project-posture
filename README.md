@@ -44,39 +44,39 @@ The calculation for variables is based on
 * Used Model: [placeholder]
 
 **Temporary schedule**
-* <h3 style="color:#B22222">Red = YOUR DUE!!!</h3>
-* <h3 style="color:#4169E1">Blue = meet w/ Scalzo</h3>
-* <h3 style="color:#32CD32">Green = meet w/ each other</h3>
+* <div class="text-red">Red = YOUR DUE!!!</div>
+* <div class="text-blue">Blue = meet w/ Scalzo</div>
+* <div class="text-green">Green = meet w/ each other</div>
 
-<h3 style="color:#4169E1">Organize ideas & questions for Scalzoand/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time)</h3>
+<div class="text-blue">Organize ideas & questions for Scalzoand/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time)</div>
 
 1. We set X as Total Area (cm²), Y as MVPA_minutes.week.
 
-<h3 style="color:#B22222">Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)</h3>
+<div class="text-red">Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)</div>
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
-<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 5, Beijing Time)</h3>
+<div class="text-green">Discuss code & form. (8 am, Apr. 5, Beijing Time)</div>
 
-<h3 style="color:#B22222">Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)</h3>
+<div class="text-red">Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)</div>
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create a model in (place holder)
-<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 14, Beijing Time)</h3>
-<h3 style="color:#4169E1">Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time)</h3>
+<div class="text-green">Discuss code & form. (8 am, Apr. 14, Beijing Time)</div>
+<div class="text-blue">Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time)</div>
 
-<h3 style="color:#B22222">Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)</h3>
+<div class="text-red">Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)</div>
 - [ ] 
-<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 21, Beijing Time)</h3>
-<h3 style="color:#4169E1">Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time)</h3>
+<div class="text-green">Discuss code & form. (8 am, Apr. 21, Beijing Time)</div>
+<div class="text-blue">Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time)</div>
 
 ***Congratulations! Stage 1 clear.***
 
 2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
 
-<h3 style="color:#B22222">Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)</h3>
+<div class="text-red">Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)</div>
 - [ ] Step 3
 
-<h3 style="color:#B22222">Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)</h3>
+<div class="text-red">Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)</div>
 - [ ] Step 4
-<h3 style="color:#32CD32">Discuss code & form. (8 am, Apr. 27/28, Beijing Time)</h3>
-<h3 style="color:#4169E1">Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time)</h3>
+<div class="text-green">Discuss code & form. (8 am, Apr. 27/28, Beijing Time)</div>
+<div class="text-blue">Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time)</div>
 
 ***Congratulations! Goodbye, MVPA_minutes.week.***
 
@@ -84,21 +84,21 @@ The calculation for variables is based on
 
 3. - [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
 4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
-<h3 style="color:#B22222">C&S (Deadline: 12:00 pm, May. 7, Beijing Time)</h3>
+<div class="text-red">C&S (Deadline: 12:00 pm, May. 7, Beijing Time)</div>
 * Total Forms = 8.
-* <h3 style="color:#32CD32">Sum Up (11:55 pm, May. 7, Beijing Time)</h3>
-<h3 style="color:#4169E1">Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time)</h3>
+* <div class="text-green">Sum Up (11:55 pm, May. 7, Beijing Time)</div>
+<div class="text-blue">Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time)</div>
 
 ***Project Finished.***
 
-<h3 style="color:#32CD32">Decide presentation content & assign time check (12 pm, May. 8, Beijing Time)</h3>
+<div class="text-green">Decide presentation content & assign time check (12 pm, May. 8, Beijing Time)</div>
 
 *Practicing Presentation.*
 
-<h3 style="color:#32CD32">Rehearsal (8 am, May. 11, Beijing Time)</h3>
+<div class="text-green">Rehearsal (8 am, May. 11, Beijing Time)</div>
 
-<h3 style="color:FF0000">****【The Day】****</h3>
-<h3 style="color:FF0000">****Natural Science Seminar, 3 am, May 12, Beijing Time.****</h3>
+<div class="text-red">****【The Day】****</h3>
+<div class="text-red">****Natural Science Seminar, 3 am, May 12, Beijing Time.****</div>
 
 ## Install
 
