@@ -53,7 +53,7 @@ The calculation for variables is based on
 ```
 ```diff
 + Green = meet w/ each other 
-+ ```
+```
 
 ```diff
 @@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
