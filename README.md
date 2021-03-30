@@ -40,8 +40,8 @@ The calculation for variables is based on
 ### Step_2
 **Exploratory Analysis/Machine Learning**
 
-* 【Overall Goal】 Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
-* 【Used Models】 placeholder
+* 【Overall Goal】<br/>Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
+* 【Used Models】<br/>placeholder
 
 <h2>Temporary schedule</h2>
 
