@@ -53,7 +53,7 @@ The calculation for variables is based on
 ```
 
 ```diff
-@@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
+@@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Apr. 1, Beijing Time) @@
 ```
 **1. We set X as Total Area (cm²), Y as MVPA_minutes.week.**
 ```diff
