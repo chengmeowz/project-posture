@@ -47,19 +47,15 @@ The calculation for variables is based on
 
 ```diff 
 ! Orange = YOUR DUE!!! 
-```
-```diff 
 @@ Purple = meet w/ Scalzo @@ 
-```
-```diff
 + Green = meet w/ each other 
 ```
 
 ```diff
 @@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
-
+```
 1. We set X as Total Area (cm²), Y as MVPA_minutes.week.
-
+```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
 ```
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
@@ -71,6 +67,7 @@ The calculation for variables is based on
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create a model in (place holder)
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
+
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time) @@
 
 ! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
@@ -78,6 +75,7 @@ The calculation for variables is based on
 - [ ] 
 ```diff 
 + Discuss code & form. (8 am, Apr. 21, Beijing Time)
+
 @@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
 ```
 
@@ -96,6 +94,7 @@ The calculation for variables is based on
 - [ ] Step 4
 ```diff 
 + Discuss code & form. (8 am, Apr. 27/28, Beijing Time)
+
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
 ```
 
@@ -114,6 +113,7 @@ The calculation for variables is based on
 * Total Forms = 8.
 ```diff
 + Sum Up (11:55 pm, May. 7, Beijing Time)
+
 @@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
 ```
 
@@ -129,12 +129,8 @@ The calculation for variables is based on
 + Rehearsal (8 am, May. 11, Beijing Time) 
 ```
 
-```diff 
-- 【**The Day**】
-```
-```diff 
-- Natural Science Seminar, 3 am, May 12, Beijing Time. 
-```
+<h3>****【The Day】****</h3>
+<h3>Natural Science Seminar, 3 am, May 12, Beijing Time.</h3>
 
 ## Install
 
