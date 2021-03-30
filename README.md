@@ -55,7 +55,7 @@ The calculation for variables is based on
 ```diff
 @@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
 ```
-<h4>1. We set X as Total Area (cm²), Y as MVPA_minutes.week.</h4>
+**1. We set X as Total Area (cm²), Y as MVPA_minutes.week.**
 ```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
 ```
@@ -86,7 +86,7 @@ The calculation for variables is based on
 
 <h3>Congratulations! Stage 1 clear (/≧▽≦)/</h3>
 
-<h4>2. We set X as MVPA_minutes.week, Y as Total Area (cm²).</h4>
+**2. We set X as MVPA_minutes.week, Y as Total Area (cm²).**
 ```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)
 ```
@@ -109,9 +109,9 @@ The calculation for variables is based on
 # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
 ```
 
-- [ ] <h4>A -> X as Total Area (cm²), Y as IPAQ_Category.</h4>
+- [ ] **A -> X as Total Area (cm²), Y as IPAQ_Category.**
 
-- [ ] <h4>B -> X as IPAQ_Category, Y as Total Area (cm²).</h4>
+- [ ] **B -> X as IPAQ_Category, Y as Total Area (cm²).**
 ```diff
 ! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
 # Total Forms = 8.
