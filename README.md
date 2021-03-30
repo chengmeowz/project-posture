@@ -61,16 +61,22 @@ The calculation for variables is based on
 1. We set X as Total Area (cm²), Y as MVPA_minutes.week.
 
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
+```
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
+```diff 
 + Discuss code & form. (8 am, Apr. 5, Beijing Time)
 
 ! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
+```
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create a model in (place holder)
+```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time) @@
 
 ! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
+```
 - [ ] 
+```diff 
 + Discuss code & form. (8 am, Apr. 21, Beijing Time)
 @@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
 ```
@@ -81,10 +87,14 @@ The calculation for variables is based on
 2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
 
 ! Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)
+```
 - [ ] Step 3
 
+```diff 
 ! Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)
+```
 - [ ] Step 4
+```diff 
 + Discuss code & form. (8 am, Apr. 27/28, Beijing Time)
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
 ```
@@ -92,14 +102,18 @@ The calculation for variables is based on
 ***Congratulations! Goodbye, MVPA_minutes.week.***
 
 
-*```diff # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) ```*
+```diff 
+# (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
+```
 
-```diff
 3. - [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
 4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
+```diff
 ! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
+```
 * Total Forms = 8.
-* <div class="text-green">Sum Up (11:55 pm, May. 7, Beijing Time)</div>
+```diff
++ Sum Up (11:55 pm, May. 7, Beijing Time)
 @@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
 ```
 
