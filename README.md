@@ -84,7 +84,7 @@ The calculation for variables is based on
 @@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
 ```
 
-<h3>Congratulations! Stage 1 clear (/≧▽≦)/</h3>
+<br/><h3>Congratulations! Stage 1 clear (/≧▽≦)/</h3><br/>
 
 **2. We set X as MVPA_minutes.week, Y as Total Area (cm²).**
 ```diff
@@ -103,7 +103,7 @@ The calculation for variables is based on
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
 ```
 
-<h3>Congratulations! Goodbye, MVPA_minutes.week \(^o^)/</h3>
+<br/><h3>Congratulations! Goodbye, MVPA_minutes.week \(^o^)/</h3><br/>
 
 ```diff 
 # (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
@@ -123,7 +123,7 @@ The calculation for variables is based on
 @@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
 ```
 
-<h3>Project Finished (๑•̀ㅂ•́)و✧</h3>
+<br/><h3>Project Finished (๑•̀ㅂ•́)و✧</h3><br/>
 
 ```diff 
 + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
