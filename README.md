@@ -109,8 +109,8 @@ The calculation for variables is based on
 4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
 ```diff
 ! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
+# Total Forms = 8.
 ```
-* Total Forms = 8.
 ```diff
 + Sum Up (11:55 pm, May. 7, Beijing Time)
 
@@ -129,8 +129,8 @@ The calculation for variables is based on
 + Rehearsal (8 am, May. 11, Beijing Time) 
 ```
 
-<h3>****【The Day】****</h3>
-<h3>Natural Science Seminar, 3 am, May 12, Beijing Time.</h3>
+<h2>***【The Day】***</h2>
+<h2>Natural Science Seminar, 3 am, May 12, Beijing Time.</h2>
 
 ## Install
 
