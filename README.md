@@ -52,61 +52,63 @@ The calculation for variables is based on
 * Used Model: [placeholder]
 
 **Temporary schedule**
-* <div class="text-red">Red = YOUR DUE!!!</div>
-* <div class="text-blue">Blue = meet w/ Scalzo</div>
-* <div class="text-green">Green = meet w/ each other</div>
+```diff
+! * Orange = YOUR DUE!!!</div>
+@@ * <div class="text-Purple">Purple = meet w/ Scalzo @@
++ * Green = meet w/ each other
 
-<div class="text-blue">Organize ideas & questions for Scalzoand/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time)</div>
+@@ Organize ideas & questions for Scalzo and/or Remind scalzo documentation(email: Cheng; Mar. 31, Beijing Time) @@
 
 1. We set X as Total Area (cm²), Y as MVPA_minutes.week.
 
-<div class="text-red">Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)</div>
+! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
-<div class="text-green">Discuss code & form. (8 am, Apr. 5, Beijing Time)</div>
++ Discuss code & form. (8 am, Apr. 5, Beijing Time)
 
-<div class="text-red">Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)</div>
+! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create a model in (place holder)
-<div class="text-green">Discuss code & form. (8 am, Apr. 14, Beijing Time)</div>
-<div class="text-blue">Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time)</div>
++ Discuss code & form. (8 am, Apr. 14, Beijing Time)
+@@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time) @@
 
-<div class="text-red">Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)</div>
+! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
 - [ ] 
-<div class="text-green">Discuss code & form. (8 am, Apr. 21, Beijing Time)</div>
-<div class="text-blue">Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time)</div>
++ Discuss code & form. (8 am, Apr. 21, Beijing Time)
+@@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
 
 ***Congratulations! Stage 1 clear.***
 
 2. We set X as MVPA_minutes.week, Y as Total Area (cm²).
 
-<div class="text-red">Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)</div>
+! Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)
 - [ ] Step 3
 
-<div class="text-red">Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)</div>
+! Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)
 - [ ] Step 4
-<div class="text-green">Discuss code & form. (8 am, Apr. 27/28, Beijing Time)</div>
-<div class="text-blue">Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time)</div>
++ Discuss code & form. (8 am, Apr. 27/28, Beijing Time)
+@@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
 
 ***Congratulations! Goodbye, MVPA_minutes.week.***
 
-*(Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A)*
+# *(Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A)*
 
 3. - [ ] A -> X as Total Area (cm²), Y as IPAQ_Category.
 4. - [ ] B -> X as IPAQ_Category, Y as Total Area (cm²).
-<div class="text-red">C&S (Deadline: 12:00 pm, May. 7, Beijing Time)</div>
+! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
 * Total Forms = 8.
 * <div class="text-green">Sum Up (11:55 pm, May. 7, Beijing Time)</div>
-<div class="text-blue">Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time)</div>
+@@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
 
 ***Project Finished.***
 
-<div class="text-green">Decide presentation content & assign time check (12 pm, May. 8, Beijing Time)</div>
++ Decide presentation content & assign time check (12 pm, May. 8, Beijing Time)
 
 *Practicing Presentation.*
 
-<div class="text-green">Rehearsal (8 am, May. 11, Beijing Time)</div>
++ Rehearsal (8 am, May. 11, Beijing Time)
 
 - ****【The Day】****
-<div class="text-red">****Natural Science Seminar, 3 am, May 12, Beijing Time.****</div>
+- **** Natural Science Seminar, 3 am, May 12, Beijing Time. ****
+```
 
 ## Install
 
