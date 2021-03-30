@@ -49,6 +49,7 @@ The calculation for variables is based on
 ! Orange = YOUR DUE!!! 
 @@ Purple = meet w/ Scalzo @@ 
 + Green = meet w/ each other 
+# Gray = Reminder (Your mission is right below your name.)
 ```
 
 ```diff
