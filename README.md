@@ -105,14 +105,22 @@ The calculation for variables is based on
 
 ***Project Finished.***
 
-```diff + Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) ```
+```diff 
++ Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
+```
 
 *Practicing Presentation.*
 
-```diff + Rehearsal (8 am, May. 11, Beijing Time) ```
+```diff 
++ Rehearsal (8 am, May. 11, Beijing Time) 
+```
 
-****```diff - 【The Day】```****
-****```diff - Natural Science Seminar, 3 am, May 12, Beijing Time. ```****
+```diff 
+- 【**The Day**】
+```
+```diff 
+- Natural Science Seminar, 3 am, May 12, Beijing Time. 
+```
 
 ## Install
 
