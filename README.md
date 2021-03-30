@@ -97,9 +97,7 @@ The calculation for variables is based on
 
 <div class="text-green">Rehearsal (8 am, May. 11, Beijing Time)</div>
 
-<div class="text-red">
-   ****【The Day】****
-</div>
+-! ****【The Day】**** !-
 <div class="text-red">****Natural Science Seminar, 3 am, May 12, Beijing Time.****</div>
 
 ## Install
