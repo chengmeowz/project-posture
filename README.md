@@ -99,7 +99,7 @@ The calculation for variables is based on
 
 <div class="text-red">
    ****【The Day】****
-   </h3>
+</div>
 <div class="text-red">****Natural Science Seminar, 3 am, May 12, Beijing Time.****</div>
 
 ## Install
