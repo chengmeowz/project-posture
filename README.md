@@ -55,11 +55,14 @@ The calculation for variables is based on
 ```diff
 @@ Organize ideas & questions for Scalzo and/or Remind scalzo the doc. (email: Cheng; Apr. 1, Beijing Time) @@
 ```
-**1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** (Step 1 according to the meeting)
+**1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** 
+```diff
+# (Step 1 according to the meeting)
+```
 ```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
+# (Step 1.5 according to the meeting)
 ```
-(Step 1.5 according to the meeting)
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 ```diff
 # Should ends with a sheet like below.
@@ -70,8 +73,8 @@ The calculation for variables is based on
 ```
 ```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
+# (Step 2-3 according to the meeting)
 ```
-(Step 2-3 according to the meeting)
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create one model (placeholder for which one) in【Used Models】and put the result into an excel
 - [ ] Repeat previous step till get an excel with all columns picked as the test data and organize the result into an excel (for one model)
 ```diff
