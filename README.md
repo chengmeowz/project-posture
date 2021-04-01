@@ -90,6 +90,7 @@ The calculation for variables is based on
 ```
 ```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
+# (Step 2-3 according to the meeting)
 ```
 There is a confusion that we can do Step 4 in two ways:
 - [ ] 1. we can just use the excels we got from Step 3 and re-organize it
