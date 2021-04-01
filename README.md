@@ -73,8 +73,8 @@ The calculation for variables is based on
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create one model (placeholder for which one) in【Used Models】and put the result into an excel
 - [ ] Repeat previous step till get an excel with all columns picked as the test data and organize the result into an excel (for one model)
 ```diff
-<br/> # Should ends with a sheet like below.
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.jpg?raw=true)<br/>
+# Should ends with a sheet like below.
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.png)
 ```
 - [ ] Repeat all previous steps till get (total number of【Used Models】) excels for all models (simply just change the model variable in the code)
 ```diff 
@@ -90,7 +90,7 @@ There is a confusion that we can do Step 4 in two ways:
 - [ ] 1. we can just use the excels we got from Step 3 and re-organize it
 - [ ] 2. Or we can re-do all the process by pick one column as the test data and rest columns as the training data, then use the training data to create for all models in【Used Models】and put the result into an excel; Repeat previous step till get (total number of【columns】) excels for all models (simply just change the column number in the code)
 <br/>*Should ends with a sheet like below.*
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step4.jpg?raw=true)<br/>
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step4.png)<br/>
 ```diff 
 + Discuss code & form. (8 am, Apr. 21, Beijing Time)
 ```
