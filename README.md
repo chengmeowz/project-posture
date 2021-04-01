@@ -61,8 +61,10 @@ The calculation for variables is based on
 ```
 (Step 1.5 according to the meeting)
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
-<br/>*Should ends with a sheet like below.*
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step1.5.png)<br/>
+```diff
+# Should ends with a sheet like below.
+```
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step1.5.png)
 ```diff 
 + Discuss code & form. (8 am, Apr. 5, Beijing Time)
 ```
@@ -74,8 +76,8 @@ The calculation for variables is based on
 - [ ] Repeat previous step till get an excel with all columns picked as the test data and organize the result into an excel (for one model)
 ```diff
 # Should ends with a sheet like below.
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.png)
 ```
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.png)
 - [ ] Repeat all previous steps till get (total number of【Used Models】) excels for all models (simply just change the model variable in the code)
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
@@ -89,8 +91,10 @@ The calculation for variables is based on
 There is a confusion that we can do Step 4 in two ways:
 - [ ] 1. we can just use the excels we got from Step 3 and re-organize it
 - [ ] 2. Or we can re-do all the process by pick one column as the test data and rest columns as the training data, then use the training data to create for all models in【Used Models】and put the result into an excel; Repeat previous step till get (total number of【columns】) excels for all models (simply just change the column number in the code)
-<br/>*Should ends with a sheet like below.*
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step4.png)<br/>
+```diff
+# Should ends with a sheet like below.
+```
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step4.png)
 ```diff 
 + Discuss code & form. (8 am, Apr. 21, Beijing Time)
 ```
