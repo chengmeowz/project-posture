@@ -33,7 +33,7 @@ The calculation for variables is based on
 
 - [X] Calculate the variables using numpy, pandas, matplotlib.pyplot, zipfile, and welch from scipy.signal in Python.
 
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?raw=true)
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?)
 
 [*copMeasures.ipynb*](https://colab.research.google.com/drive/1oOHwtgAxazdcARhygBb5DLKYAf-HDTT8?usp=sharing#scrollTo=8MrFIHv6OpQu), a file contains Python code for the variables calculation.
 
@@ -72,8 +72,10 @@ The calculation for variables is based on
 (Step 2-3 according to the meeting)
 - [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create one model (placeholder for which one) in【Used Models】and put the result into an excel
 - [ ] Repeat previous step till get an excel with all columns picked as the test data and organize the result into an excel (for one model)
-<br/>*Should ends with a sheet like below.*
+```diff
+<br/> # Should ends with a sheet like below.
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.jpg?raw=true)<br/>
+```
 - [ ] Repeat all previous steps till get (total number of【Used Models】) excels for all models (simply just change the model variable in the code)
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
