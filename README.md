@@ -62,7 +62,7 @@ The calculation for variables is based on
 (Step 1.5 according to the meeting)
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 <br/>*Should ends with a sheet like below.*
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step1.5.jpg?raw=true)<br/>
+![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step1.5.png)<br/>
 ```diff 
 + Discuss code & form. (8 am, Apr. 5, Beijing Time)
 ```
