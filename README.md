@@ -42,13 +42,13 @@ The calculation for variables is based on
 
 * 【Overall Goal】<br/>
 Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
-* 【Used Models】<br/>
-1. Ridge regression: https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
-2. Kernel ridge regression: https://scikit-learn.org/stable/modules/kernel_ridge.html
-3. Adaboost: https://scikit-learn.org/stable/modules/ensemble.html#adaboost
-4. Random Forest: https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees
-5. Neural network: https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression
-6. Support vector machine: https://scikit-learn.org/stable/modules/svm.html#regression
+* 【Used Models】[*Reference*](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+   1. [Ridge regression](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification)
+   2. [Kernel ridge regression](https://scikit-learn.org/stable/modules/kernel_ridge.html)
+   3. [Adaboost](https://scikit-learn.org/stable/modules/ensemble.html#adaboost)
+   4. [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)
+   5. [Neural network](https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression)
+   6. [Support vector machine](https://scikit-learn.org/stable/modules/svm.html#regression)
 
 <h2>Temporary schedule</h2>
 
@@ -64,11 +64,8 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 ```
 **1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** 
 ```diff
-# (Step 1 according to the meeting)
-```
-```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
-# (Step 1.5 according to the meeting)
+# (Step 0 according to the meeting)
 ```
 - [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 ```diff
@@ -79,16 +76,33 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 + Discuss code & form. (8 am, Apr. 5, Beijing Time)
 ```
 ```diff
+! Cheng/Sunny (Deadline: 11:55 pm, Apr. 8, Beijing Time)
+# (Step 1 according to the meeting)
+```
+- [ ] Apply pre-processing to the data (Standardization) https://scikit-learn.org/stable/modules/preprocessing.html
+```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
 # (Step 2-3 according to the meeting)
 ```
-- [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create one model (placeholder for which one) in【Used Models】and put the result into an excel
+- [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
+- Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): leave-one-out
 - [ ] Repeat previous step till get an excel with all columns picked as the test data and organize the result into an excel (for one model)
+- For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters
+```diff
+Example for Kernel ridge regression using gridsearch to optimize the parameters alpha and gamma:
+kr = GridSearchCV(KernelRidge(kernel='rbf', gamma=0.1),
+                  param_grid={"alpha": [1e0, 0.1, 1e-2, 1e-3],
+                              "gamma": np.logspace(-2, 2, 5)})
+```
+- Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
+```diff
+MSE is a very common; you could report others 
+```
 ```diff
 # Should ends with a sheet like below.
 ```
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.png)
-- [ ] Repeat all previous steps till get (total number of【Used Models】) excels for all models (simply just change the model variable in the code)
+- [ ] Repeat all previous steps till get 6 excels for all models (simply just change the model variable in the code)
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
 ```
