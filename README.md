@@ -79,7 +79,7 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 ! Cheng/Sunny (Deadline: 11:55 pm, Apr. 8, Beijing Time)
 # (Step 1 according to the meeting)
 ```
-- [ ] Apply pre-processing to the data (Standardization) https://scikit-learn.org/stable/modules/preprocessing.html
+- [ ] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
 ```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
 # (Step 2-3 according to the meeting)
@@ -102,7 +102,7 @@ MSE is a very common; you could report others
 # Should ends with a sheet like below.
 ```
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.png)
-- [ ] Repeat all previous steps till get 6 excels for all models (simply just change the model variable in the code)
+- [ ] Repeat all previous steps till get **6** excels for all models (simply just change the model variable in the code)
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
 ```
