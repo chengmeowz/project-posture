@@ -40,8 +40,15 @@ The calculation for variables is based on
 ### Step_2
 **Exploratory Analysis/Machine Learning**
 
-* 【Overall Goal】<br/>Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
-* 【Used Models】<br/>placeholder
+* 【Overall Goal】<br/>
+Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
+* 【Used Models】<br/>
+- Ridge regression: https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification
+- Kernel ridge regression: https://scikit-learn.org/stable/modules/kernel_ridge.html
+- Adaboost: https://scikit-learn.org/stable/modules/ensemble.html#adaboost
+- Random Forest: https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees
+- Neural network: https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression
+- Support vector machine: https://scikit-learn.org/stable/modules/svm.html#regression
 
 <h2>Temporary schedule</h2>
 
