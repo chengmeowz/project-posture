@@ -67,7 +67,7 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
 # (Step 0 according to the meeting)
 ```
-- [ ] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
+- [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 ```diff
 # Should ends with a sheet like below.
 ```
