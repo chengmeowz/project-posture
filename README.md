@@ -194,9 +194,10 @@ Make sure Python 3 is installed on your machine. The following packages are used
 * [numpy](https://numpy.org/)
 * [pandas](https://pandas.pydata.org/)
 * [scipy](https://www.scipy.org/)
+* [scikit-learn](https://scikit-learn.org/stable/index.html)
 * [zipfile](https://docs.python.org/3/library/zipfile.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/zipfile.py))
 
-This project possibly will use [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
+This project uses the IDE [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
 
 ```
 sh
