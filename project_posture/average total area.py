@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # author: Sunny Qu
 # modified by: Cheng Zheng (add path, so the address don't need to change for different users.
 
