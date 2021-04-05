@@ -50,7 +50,7 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
    5. [Neural network](https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression)
    6. [Support vector machine](https://scikit-learn.org/stable/modules/svm.html#regression)
 
-<h2>Temporary schedule</h2>
+<h2>Temporary Schedule</h2>
 
 ```diff 
 ! Orange = YOUR DUE!!! 
@@ -65,55 +65,59 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 **1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** 
 ```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
-# (Step 0 according to the meeting)
 ```
 - [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
+
+[aveTotalArea_MVPA.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/aveTotalArea_MVPA.xlsx), an excel file contains an overall average score for Total Area (cm²), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
+
 ```diff
-# Should ends with a sheet like below.
-```
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step1.5.png)
-```diff 
-+ Discuss code & form. (8 am, Apr. 5, Beijing Time)
-```
-```diff
-! Cheng/Sunny (Deadline: 11:55 pm, Apr. 8, Beijing Time)
-# (Step 1 according to the meeting)
+! Sunny (Deadline: 11:55 pm, Apr. 8, Beijing Time)
+# Preprocessing
 ```
 - [ ] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
+[*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
 ```diff
 ! Cheng (Deadline: 11:55 pm, Apr. 13, Beijing Time)
-# (Step 2-3 according to the meeting)
+# Learning
 ```
-- [ ] Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
-- Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): leave-one-out
-- [ ] Repeat previous step till get an excel with all columns picked as the test data and organize the result into an excel (for one model)
-- For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters
+- [ ] Machine learning algorithms to evaluate. 
+   - Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
+- [ ] Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): leave-one-out.
+- [ ] For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters.
 ```diff
 Example for Kernel ridge regression using gridsearch to optimize the parameters alpha and gamma:
-kr = GridSearchCV(KernelRidge(kernel='rbf', gamma=0.1),
-                  param_grid={"alpha": [1e0, 0.1, 1e-2, 1e-3],
-                              "gamma": np.logspace(-2, 2, 5)})
+   kr = GridSearchCV(KernelRidge(kernel='rbf', gamma=0.1),
+                     param_grid={"alpha": [1e0, 0.1, 1e-2, 1e-3],
+                                "gamma": np.logspace(-2, 2, 5)})
 ```
-- Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
-```diff
-MSE is a very common; you could report others 
-```
+- [ ] Repeat previous steps till get an excel with all columns picked as the test data and organize the result into an excel (for one model).
+
 ```diff
 # Should ends with a sheet like below.
 ```
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step3.png)
 - [ ] Repeat all previous steps till get **6** excels for all models (simply just change the model variable in the code)
+
 ```diff 
 + Discuss code & form. (8 am, Apr. 14, Beijing Time)
 ```
 ```diff
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time) @@
 ```
+- [ ] Organize things we had
+- [ ] Discuss what we do in Evaluation
+- [ ] Discuss Step 4
+
 ```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
-# (Step 2-3 according to the meeting)
+# Evaluation
 ```
-There is a confusion that we can do Step 4 in two ways:
+- [ ] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
+```diff
+MSE is a very common; you could report others 
+```
+
+**There is a confusion that we can do Step 4 in two ways:**
 - [ ] 1. we can just use the excels we got from Step 3 and re-organize it
 - [ ] 2. Or we can re-do all the process by pick one column as the test data and rest columns as the training data, then use the training data to create for all models in【Used Models】and put the result into an excel; Repeat previous step till get (total number of【columns】) excels for all models (simply just change the column number in the code)
 ```diff
