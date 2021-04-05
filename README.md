@@ -103,10 +103,10 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```
 - [ ] Discuss things we had
 - [ ] Discuss what we should do in Evaluation (**Preview evaluation!!!**)
-- [ ] **Discuss Step 4**
+- [ ] **Discuss Step 4** 
 
 ```diff
-! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
+! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time) 【undecided】
 # Evaluation
 ```
 - [ ] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
