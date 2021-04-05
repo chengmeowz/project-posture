@@ -56,7 +56,7 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 ! Orange = YOUR DUE!!! 
 @@ Purple = meet w/ Scalzo @@ 
 + Green = meet w/ each other 
-# Gray = reminder/completed (Your mission is right below your name.)
+# Gray = remark/completed (Your mission is right below your name.)
 ```
 
 **1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** 
