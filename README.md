@@ -59,12 +59,9 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 # Gray = reminder (Your mission is right below your name.)
 ```
 
-```diff
-@@ Organize ideas & questions for Scalzo and/or Remind scalzo the doc. (email: Cheng; Apr. 1, Beijing Time) @@
-```
 **1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** 
 ```diff
-! Sunny (Deadline: 11:55 pm, Apr. 4, Beijing Time)
+# Sunny compeleted
 ```
 - [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 
