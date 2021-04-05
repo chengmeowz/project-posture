@@ -101,9 +101,9 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```diff
 @@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 15, Beijing Time) @@
 ```
-- [ ] Organize things we had
-- [ ] Discuss what we do in Evaluation
-- [ ] Discuss Step 4
+- [ ] Discuss things we had
+- [ ] Discuss what we should do in Evaluation (**Preview evaluation!!!**)
+- [ ] **Discuss Step 4**
 
 ```diff
 ! Sunny (Deadline: 11:55 pm, Apr. 20, Beijing Time)
