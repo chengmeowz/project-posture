@@ -56,12 +56,12 @@ Predict MVPA_minutes.week and/or IPAQ_Category from any of the four Total Area (
 ! Orange = YOUR DUE!!! 
 @@ Purple = meet w/ Scalzo @@ 
 + Green = meet w/ each other 
-# Gray = reminder (Your mission is right below your name.)
+# Gray = reminder/completed (Your mission is right below your name.)
 ```
 
 **1. We set X as Total Area (cm²), Y as MVPA_minutes.week.** 
 ```diff
-# Sunny compeleted
+# Sunny completed
 ```
 - [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores) 
 
