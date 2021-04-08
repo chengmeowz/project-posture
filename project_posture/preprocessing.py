@@ -22,6 +22,7 @@ dataset = pd.read_excel(path_up1Dir + '/BDS/aveTotalArea_MVPA.xlsx') # to import
 X = pd.DataFrame(dataset.iloc[:,0])
 Y = pd.DataFrame(dataset.iloc[:,1])
 
+
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
 
@@ -33,8 +34,8 @@ Y_train = sc_Y.fit_transform(Y_train)
 Y_test = sc_Y.transform(Y_test)
 
 
-pd.DataFrame(X_train).to_excel('X_train.xlsx')
-pd.DataFrame(X_test).to_excel('X_test.xlsx')
-pd.DataFrame(Y_train).to_excel('Y_train.xlsx')
-pd.DataFrame(Y_test).to_excel('Y_test.xlsx')
+pd.DataFrame(X_train).to_excel(path_up1Dir + '/X_average total area; Y_MVPA/X_Train.xlsx')
+pd.DataFrame(X_test).to_excel(path_up1Dir + '/X_average total area; Y_MVPA/X_Test.xlsx')
+pd.DataFrame(Y_train).to_excel(path_up1Dir + '/X_average total area; Y_MVPA/Y_Train.xlsx')
+pd.DataFrame(Y_test).to_excel(path_up1Dir + '/X_average total area; Y_MVPA/Y_Test.xlsx')
 
