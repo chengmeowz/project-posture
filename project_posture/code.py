@@ -66,6 +66,8 @@ model_1_cv = linear_model.RidgeCV(alphas=np.logspace(-6, 6, 13))
 model_1_cv.fit(X_train, Y_train)
 model_1_cv.alpha_ # output: 1000000.0
 
+# optimization
+
 ###################
 
 #  Kernel ridge regression
@@ -77,6 +79,8 @@ model_2.fit(X_train, Y_train)
 # leave-one-out Cross-Validation ???
 # How to do this???
 
+# optimization
+
 ###################
 
 #  Adaboost
@@ -84,61 +88,56 @@ from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import AdaBoostClassifier
 
 model_3 = AdaBoostClassifier(n_estimators=100)
-scores = cross_val_score(model_3, X, Y, cv=5)
-scores.mean() # output: 0.03416908914728682
 
 # leave-one-out Cross-Validation
 
-model_1_crossValid = linear_model.RidgeCV(alphas=np.logspace(-6, 6, 13))
-model_1_crossValid.fit(X_train, Y_train)
-model_1_crossValid.alpha_ # output: 1000000.0
+model_3_cvscores = cross_val_score(model_3, X, Y)
+model_3_cvscores.mean() # output: 0.03416908914728682
+
+# optimization
 
 ###################
 
 #  Random Forest
-from sklearn import linear_model 
+from sklearn.ensemble import RandomForestClassifier
 
-model_1 = linear_model.Ridge(alpha=.5)
-model_1.fit(X_train, Y_train)
-model_1.coef_ # output: array([[-0.02553449]])
-model_1.intercept_ # output: array([6.53393307e-19])
+model_4 = RandomForestClassifier(n_estimators=10)
 
-# leave-one-out Cross-Validation
+# leave-one-out Cross-Validation???
 
-model_1_crossValid = linear_model.RidgeCV(alphas=np.logspace(-6, 6, 13))
-model_1_crossValid.fit(X_train, Y_train)
-model_1_crossValid.alpha_ # output: 1000000.0
+model_4_cvscores = cross_val_score(model_4, X, Y)
+model_4_cvscores.mean() # output: 0.0170906007751938
+
+# optimization
 
 ###################
 
 #  Neural network
-from sklearn import linear_model 
+from sklearn.neural_network import MLPRegressor 
 
-model_1 = linear_model.Ridge(alpha=.5)
-model_1.fit(X_train, Y_train)
-model_1.coef_ # output: array([[-0.02553449]])
-model_1.intercept_ # output: array([6.53393307e-19])
+model_5 = MLPRegressor(random_state=1, max_iter=500)
+model_5 = model_5.fit(X_train, Y_train)
+model_5.predict(X_test[:2]) # output: array([0.04133816, 0.04021619])
+model_5.score(X_test, Y_test) # output: -0.01871909192521093
 
-# leave-one-out Cross-Validation
+# leave-one-out Cross-Validation???
 
-model_1_crossValid = linear_model.RidgeCV(alphas=np.logspace(-6, 6, 13))
-model_1_crossValid.fit(X_train, Y_train)
-model_1_crossValid.alpha_ # output: 1000000.0
+# optimization
 
 ###################
 
 #  Support vector machine
-from sklearn import linear_model 
+from sklearn import svm
 
-model_1 = linear_model.Ridge(alpha=.5)
-model_1.fit(X_train, Y_train)
-model_1.coef_ # output: array([[-0.02553449]])
-model_1.intercept_ # output: array([6.53393307e-19])
+model_6 = svm.SVR()
+model_6.fit(X, Y)
 
 # leave-one-out Cross-Validation
 
 model_1_crossValid = linear_model.RidgeCV(alphas=np.logspace(-6, 6, 13))
 model_1_crossValid.fit(X_train, Y_train)
 model_1_crossValid.alpha_ # output: 1000000.0
+
+# optimization
 
 ###################
