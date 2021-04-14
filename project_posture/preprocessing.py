@@ -22,8 +22,8 @@ dataset.isnull().any(axis=0)
 dataset.duplicated().any
 
 # Splitting the attributes into independent and dependent attributes
-X = pd.DataFrame(dataset.iloc[:,0])
-Y = pd.DataFrame(dataset.iloc[:,1])
+X = pd.DataFrame(dataset.iloc[:,0]) # Total Area
+Y = pd.DataFrame(dataset.iloc[:,1]) # MVPA_minutes.week
 
 # Splitting the dataset into training and testing datasets
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
