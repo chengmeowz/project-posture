@@ -7,8 +7,9 @@ import pandas as pd
 import numpy as np
 from openpyxl import load_workbook
 
-path_current = os.getcwd() # get current path, i.e this python file directory
-path_project = os.path.dirname(path_current) # go up one directory; find the project directory
+# Get the project directory
+path_current = os.getcwd() # get current path, aka this python file directory
+path_project = os.path.dirname(path_current) # go up one directory, aka find the project directory
 
 experiment = pd.read_excel(path_project + '/BDS/BDSinfo_modified.xlsx') # read first sheet from xlsx
 
