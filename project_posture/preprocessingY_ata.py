@@ -35,5 +35,5 @@ other['X'] = X_
 other['Y'] = Y_
 
 
-other.to_excel(path_up1Dir + '/Y_average total area; X_MVPA/Y_average total area; X_MVPA.xlsx')
+other.to_excel(path_up1Dir + '/y_TotalArea_x_MVPA/y_TotalArea_x_MVPA.xlsx')
 
