@@ -50,21 +50,29 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
    5. [Neural network](https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression)
    6. [Support vector machine](https://scikit-learn.org/stable/modules/svm.html#regression)
 
-<h4>Pre-wook</h4> (accomplished by Sunny)
+<h4>Pre-work</h4> 
+(accomplished by Sunny)
+
 - [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores)
 
 [aveTotalArea_MVPA.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/aveTotalArea_MVPA.xlsx), an excel file contains an overall average score for Total Area (cm²), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
 
 - [X] Decide X and Y. (we set X as Total Area (cm²), Y as MVPA_minutes.week first, and do it again with switching them)
 
-<h3>Data Preprocessing</h3> (accomplished by Sunny)
+<h3>Data Preprocessing</h3> 
+(accomplished by Sunny)
+
 - [X] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
 
-<h3>Learning</h3> (accomplished by Cheng)
-- [X] Machine learning algorithms to evaluate. 
+<h3>Learning</h3> 
+(accomplished by Cheng)
+
+- [ ] Machine learning algorithms to evaluate. 
    - Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
+
 - [X] Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): leave-one-out.
+
 - [X] For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters.
 ```diff
 Example for Kernel ridge regression using gridsearch to optimize the parameters alpha and gamma:
