@@ -74,7 +74,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 - [X] Machine learning algorithms to evaluate. 
    - Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
 
-- [X] Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): leave-one-out.
+- [X] Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): 10-Fold.
 
 - [X] For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters.
 ```diff
