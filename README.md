@@ -51,6 +51,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
    6. [Support vector machine](https://scikit-learn.org/stable/modules/svm.html#regression)
 
 
+----------
 **Pre-work** (accomplished by Sunny)
 
 - [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores)
@@ -60,12 +61,14 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 - [X] Decide X and Y. (we set X as Total Area (cm²), Y as MVPA_minutes.week first, and do it again with switching them)
 
 
+----------
 **Data Preprocessing** (accomplished by Sunny)
 
 - [X] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
 
 
+----------
 **Learning** (accomplished by Cheng)
 
 - [X] Machine learning algorithms to evaluate. 
