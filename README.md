@@ -68,7 +68,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 <h3>Learning</h3> 
 (accomplished by Cheng)
 
-- [ ] Machine learning algorithms to evaluate. 
+- [X] Machine learning algorithms to evaluate. 
    - Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
 
 - [X] Use [crossvalidation](https://scikit-learn.org/stable/modules/cross_validation.html): leave-one-out.
@@ -103,69 +103,11 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 MSE is a very common; you could report others 
 ```
 
-**There is a confusion that we can do Step 4 in two ways:**
-- [ ] 1. we can just use the excels we got from Step 3 and re-organize it
-- [ ] 2. Or we can re-do all the process by pick one column as the test data and rest columns as the training data, then use the training data to create for all models in【Used Models】and put the result into an excel; Repeat previous step till get (total number of【columns】) excels for all models (simply just change the column number in the code)
-```diff
-# Should ends with a sheet like below.
-```
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/step4.png)
-```diff 
-+ Discuss code & form. (8 am, Apr. 21, Beijing Time)
-```
-```diff
-@@ Meet w/ scalzo (email: Cheng; 6 am, Apr. 22, Beijing Time) @@
-```
-
-<h3>Congratulations! Stage 1 clear (/≧▽≦)/</h3><br/>
-
-**2. We set X as MVPA_minutes.week, Y as Total Area (cm²).**
-```diff
-! Cheng (Deadline: 11:55 pm, Apr. 24/25, Beijing Time)
-```
-- [ ] repeat Step 3
+<h3>Congratulations! (/≧▽≦)/</h3><br/>
 
 ```diff 
-! Sunny (Deadline: 11:55 pm, Apr. 26/27, Beijing Time)
-```
-- [ ] repeat Step 4
-```diff 
-+ Discuss code & form. (8 am, Apr. 27/28, Beijing Time)
-```
-```diff
-@@ Meet w/ scalzo (email: Sunny; 6 am, Apr. 28/29, Beijing Time) @@
-```
-
-<h3>Congratulations! Goodbye, MVPA_minutes.week \(^o^)/</h3><br/>
-
-```diff 
-# (Using WeChat dice, higher = A; Same -> Rock-paper-scissors -> winner = A) 
-```
-
-- [ ] **A -> X as Total Area (cm²), Y as IPAQ_Category.**
-
-- [ ] **B -> X as IPAQ_Category, Y as Total Area (cm²).**
-```diff
-! C&S (Deadline: 12:00 pm, May. 7, Beijing Time)
-# Total Forms = 8.
-```
-```diff
-+ Sum Up (11:55 pm, May. 7, Beijing Time)
-```
-```diff
-@@ Meet w/ scalzo (email: Sunny; 6 am, May. 8, Beijing Time) @@
-```
-
-<h3>Project Finished (๑•̀ㅂ•́)و✧</h3><br/>
-
-```diff 
-+ Decide presentation content & assign time check (12 pm, May. 8, Beijing Time) 
-```
-
-<h4>Practicing Presentation :-O </h4>
-
-```diff 
-+ Rehearsal (8 am, May. 11, Beijing Time) 
++ Re-do x_MVPA_y_TotalArea (May. 8-9, Beijing Time) 
++ Rehearsal (May. 10-11, Beijing Time) 
 ```
 <br/>
 <h1>【The Day】─=≡Σ(((つ•̀ω•́)つ 
