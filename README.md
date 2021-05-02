@@ -50,6 +50,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
    5. [Neural network](https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression)
    6. [Support vector machine](https://scikit-learn.org/stable/modules/svm.html#regression)
 
+
 **Pre-work** (accomplished by Sunny)
 
 - [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores)
@@ -58,10 +59,12 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 
 - [X] Decide X and Y. (we set X as Total Area (cm²), Y as MVPA_minutes.week first, and do it again with switching them)
 
+
 **Data Preprocessing** (accomplished by Sunny)
 
 - [X] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
+
 
 **Learning** (accomplished by Cheng)
 
@@ -77,6 +80,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
                      param_grid={"alpha": [1e0, 0.1, 1e-2, 1e-3],
                                 "gamma": np.logspace(-2, 2, 5)})
 ```
+
 
 <h2>Temporary Schedule</h2>
 
