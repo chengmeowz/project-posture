@@ -79,7 +79,8 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 
 - [X] Use [cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html): 10-Fold.
 
-- [X] For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters. And we implemented [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV) with [KFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html#sklearn.model_selection.KFold) (specifically 10-Fold).
+- [X] For each machine learning algorithms, perform an [optimization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_kernel_ridge_regression.html#sphx-glr-auto-examples-miscellaneous-plot-kernel-ridge-regression-py) of the parameters. 
+   - We implemented [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html#sklearn.model_selection.GridSearchCV) with [KFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html#sklearn.model_selection.KFold) (specifically 10-Fold).
 ```diff
 Example for Kernel ridge regression using gridsearch to optimize the parameters alpha and gamma:
    kr = GridSearchCV(KernelRidge(kernel='rbf', gamma=0.1),
@@ -91,9 +92,11 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 **Evaluation** (accomplished by Sunny)
 
 - [X] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
-```diff
-MSE is a very common; you could report others 
-```
+   - We implemented the scoring methods (built in GridSearchCV for regression) below to interpret our models: 
+      - 	metrics.mean_absolute_error (i.e. scoring='neg_mean_absolute_error')
+      - 	metrics.mean_squared_error (i.e. scoring='neg_mean_squared_error')
+      - 	metrics.median_absolute_error (i.e. scoring='neg_median_absolute_error')
+      - 	metrics.r2_score (i.e. scoring=‘r2’)
 
 <h2>Temporary Schedule</h2>
 
