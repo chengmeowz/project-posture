@@ -121,14 +121,15 @@ MSE is a very common; you could report others
 
 Download or clone this repository.
 
-Make sure Python 3 is installed on your machine. The following packages are used in the scripts.
+Make sure Python 3 is installed on your machine. 
+
+The following packages are used/imported in the scripts, please install them:
 
 * [graphviz](https://graphviz.org/)
 * [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
-* [pandas](https://pandas.pydata.org/)
-// * [scipy](https://www.scipy.org/)
 * [os](https://docs.python.org/3/library/os.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/os.py))
+* [pandas](https://pandas.pydata.org/)
 * [scikit-learn](https://scikit-learn.org/stable/index.html)
 * [zipfile](https://docs.python.org/3/library/zipfile.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/zipfile.py))
 
