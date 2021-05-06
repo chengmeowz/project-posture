@@ -42,7 +42,7 @@ The calculation for variables is based on
 
 * 【Overall Goal】<br/>
 Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam).
-* 【Used Models】[*Reference*](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+* 【Used Algorithms】[*Reference*](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
    1. [Ridge regression](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification)
    2. [Kernel ridge regression](https://scikit-learn.org/stable/modules/kernel_ridge.html)
    3. [Adaboost](https://scikit-learn.org/stable/modules/ensemble.html#adaboost)
@@ -75,7 +75,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 **Learning** (accomplished by Cheng)
 
 - [X] Machine learning algorithms to evaluate. 
-   - Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Models】and put the result into an excel
+   - Pick one column as the test data and rest columns as the training data, then use the training data to create one model in【Used Algorithms】and put the result into an excel
 
 - [X] Use [cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html): 10-Fold.
 
