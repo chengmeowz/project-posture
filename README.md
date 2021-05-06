@@ -60,7 +60,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 
 - [X] Decide X and Y. 
    - we set X as Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s);
-   - Y as MVPA_minutes.week first, and do it again with switching them)
+   - Y as MVPA_minutes.week first, and do it again later with switching them
 
 
 ----------
