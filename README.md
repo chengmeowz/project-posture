@@ -93,10 +93,10 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 
 - [X] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
    - We implemented the scoring methods (built in GridSearchCV for regression) below to interpret our models: 
-      - 	metrics.mean_absolute_error (i.e. scoring='neg_mean_absolute_error')
-      - 	metrics.mean_squared_error (i.e. scoring='neg_mean_squared_error')
-      - 	metrics.median_absolute_error (i.e. scoring='neg_median_absolute_error')
-      - 	metrics.r2_score (i.e. scoring=‘r2’)
+    * metrics.mean_absolute_error (i.e. scoring='neg_mean_absolute_error')
+    * metrics.mean_squared_error (i.e. scoring='neg_mean_squared_error')
+    * metrics.median_absolute_error (i.e. scoring='neg_median_absolute_error')
+    * metrics.r2_score (i.e. scoring=‘r2’)
 
 <h2>Temporary Schedule</h2>
 
