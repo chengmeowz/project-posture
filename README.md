@@ -97,7 +97,6 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```diff
       metrics.mean_absolute_error (i.e. scoring='neg_mean_absolute_error')
       metrics.mean_squared_error (i.e. scoring='neg_mean_squared_error')
-      metrics.median_absolute_error (i.e. scoring='neg_median_absolute_error')
       metrics.r2_score (i.e. scoring=‘r2’)
 ```
 
