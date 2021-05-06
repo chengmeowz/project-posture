@@ -54,11 +54,13 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 ----------
 **Pre-work** (accomplished by Sunny)
 
-- [X] Average the 3 trials for each condition to get an overall average score for Total Area (cm²) for each condition (i.e., we will have 4 average Total Area (cm²) scores)
+- [X] Average the 3 trials for each condition to get an overall average score for **Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)** for each condition (i.e., we will have 4 average Total Area (cm²) scores)
 
-[aveTotalArea_MVPA.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/aveTotalArea_MVPA.xlsx), an excel file contains an overall average score for Total Area (cm²), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
+[variables.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/variables.xlsx), an excel file contains an overall average score for Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), Total Velocity (cm/s), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
 
-- [X] Decide X and Y. (we set X as Total Area (cm²), Y as MVPA_minutes.week first, and do it again with switching them)
+- [X] Decide X and Y. 
+   - we set X as Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s);
+   - Y as MVPA_minutes.week first, and do it again with switching them)
 
 
 ----------
@@ -67,6 +69,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 - [X] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
 
+[y_MVPA.xlsx](https://github.com/chengmeowz/project-posture/blob/main/y_MVPA/y_MVPA.xlsx), an excel file contains the preprocessed data for y (MVPA_minutes.week) and X (Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
 
 ----------
 **Learning** (accomplished by Cheng)
@@ -84,6 +87,13 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
                                 "gamma": np.logspace(-2, 2, 5)})
 ```
 
+----------
+**Evaluation** (accomplished by Sunny)
+
+- [X] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
+```diff
+MSE is a very common; you could report others 
+```
 
 <h2>Temporary Schedule</h2>
 
@@ -92,19 +102,6 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 @@ Purple = meet w/ Scalzo @@ 
 + Green = meet w/ each other 
 # Gray = remark/completed (Your mission is right below your name.)
-```
-
-```diff
-@@ Meet w/ scalzo (email: Cheng; 6 am, May. 5, Beijing Time) @@
-```
-
-```diff
-! Sunny (Deadline: 11:55 pm, May. 7, Beijing Time) 
-# Evaluation
-```
-- [ ] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
-```diff
-MSE is a very common; you could report others 
 ```
 
 <h3>Congratulations! (/≧▽≦)/</h3><br/>
@@ -126,14 +123,16 @@ Download or clone this repository.
 
 Make sure Python 3 is installed on your machine. The following packages are used in the scripts.
 
+* [graphviz](https://graphviz.org/)
 * [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
 * [pandas](https://pandas.pydata.org/)
-* [scipy](https://www.scipy.org/)
+// * [scipy](https://www.scipy.org/)
+* [os](https://docs.python.org/3/library/os.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/os.py))
 * [scikit-learn](https://scikit-learn.org/stable/index.html)
 * [zipfile](https://docs.python.org/3/library/zipfile.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/zipfile.py))
 
-This project uses the IDE [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
+This project uses the [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
 
 ```
 sh
