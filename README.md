@@ -131,6 +131,7 @@ The following packages are used/imported in the scripts, please install them:
 * [os](https://docs.python.org/3/library/os.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/os.py))
 * [pandas](https://pandas.pydata.org/)
 * [scikit-learn](https://scikit-learn.org/stable/index.html)
+* [scipy](https://www.scipy.org/)
 * [zipfile](https://docs.python.org/3/library/zipfile.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/zipfile.py))
 
 This project uses the [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
