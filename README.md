@@ -99,7 +99,8 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
       metrics.median_absolute_error (i.e. scoring='neg_median_absolute_error')
       metrics.r2_score (i.e. scoring=‘r2’)
 ```
-   - We also used our model to find y_true and y_pred to draw the graph for a more visualized result, comparing the result from six models with the original data.
+   * We also used our model to find y_true and y_pred to draw the graph for a more visualized result, comparing the result from six models with the original data.
+
 <h2>Temporary Schedule</h2>
 
 ```diff 
