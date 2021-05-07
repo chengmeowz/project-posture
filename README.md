@@ -118,7 +118,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 <br/>
 <h1>【The Day】─=≡Σ(((つ•̀ω•́)つ 
    <br/> 
-   Natural Science Seminar (3 am, May. 12, Beijing Time)
+   Natural Science Seminar (send recording before 0 am, May. 12, Beijing Time)
 </h1>
 <br/>
 
