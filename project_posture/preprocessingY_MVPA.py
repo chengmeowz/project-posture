@@ -56,5 +56,5 @@ other['aveVelocity'] = aveVelocity_
 other['MVPA'] = MVPA_
 
 
-other.to_excel(path_up1Dir + '/y_MVPA/y_MVPA.xlsx')
+other.to_excel(path_up1Dir + '/standardScaler/standardScaler.xlsx')
 
