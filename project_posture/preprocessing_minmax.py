@@ -18,5 +18,5 @@ min_max_scaler = preprocessing.MinMaxScaler()
 clean_minmax = min_max_scaler.fit_transform(clean)#对除了那三个之外的全部进行clean——minmax
 new_df = pd.DataFrame(clean_minmax, columns=dataset.columns[:-3])
 result = pd.concat([output, new_df], axis=1)
-result.to_excel(path_up1Dir + '/minmax/minmax.xlsx')
+result.to_excel(path_up1Dir + '/minMaxScaler/minMaxScaler.xlsx')
 
