@@ -97,7 +97,6 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```diff
       metrics.mean_absolute_error (i.e. scoring='neg_mean_absolute_error')
       metrics.mean_squared_error (i.e. scoring='neg_mean_squared_error')
-      metrics.median_absolute_error (i.e. scoring='neg_median_absolute_error')
       metrics.r2_score (i.e. scoring=‘r2’)
 ```
 
@@ -119,7 +118,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 <br/>
 <h1>【The Day】─=≡Σ(((つ•̀ω•́)つ 
    <br/> 
-   Natural Science Seminar (3 am, May. 12, Beijing Time)
+   Natural Science Seminar (send recording before 0 am, May. 12, Beijing Time)
 </h1>
 <br/>
 
@@ -159,7 +158,7 @@ $ npm install --global project-posture-[placeholder]
 
 ## Contributing
 
-This project is supervised by Dr. [Fabien Scalzo](https://seaver.pepperdine.edu/academics/faculty/fabien-scalzo/) from Pepperdine University, co-advised by Dr. [Adam Pennell](https://seaver.pepperdine.edu/academics/faculty/adam-pennell/) from Pepperdine University, and assisted by Dr. [Renato Naville Watanabe](http://ebm.ufabc.edu.br/docentes/renato/) ([*github*](https://github.com/rnwatanabe)) from Federal University of ABC.
+This project is supervised by Dr. [Fabien Scalzo](https://seaver.pepperdine.edu/academics/faculty/fabien-scalzo/) from Pepperdine University, co-advised by Dr. [Adam Pennell](https://seaver.pepperdine.edu/academics/faculty/adam-pennell/) from Pepperdine University, and assisted by Dr. [Renato Naville Watanabe](https://github.com/rnwatanabe)).
 
 ## License
 
