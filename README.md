@@ -96,7 +96,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```
 
 ----------
-**Evaluation** (accomplished by Sunny)
+**Evaluation** (accomplished by Cheng & Sunny)
 
 - [X] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
    - We used our model to find y_true and y_pred to draw the graph for a more visualized result, comparing the result from the predicted y value using our six models with the original data.
