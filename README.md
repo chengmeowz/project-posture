@@ -70,10 +70,13 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
    - We implemented both [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) and [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler).
 
-[preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_standard.py), an python file to preprocess data using StandardScaler.
-[preprocessing_minmax.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_minmax.py), an python file to preprocess data using MinMaxScaler.
-[standardScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/standardScaler/standardScaler.xlsx), an excel file contains the preprocessed data using StandardScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
-[minMaxScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler/minMaxScaler.xlsx), an excel file contains the preprocessed data using MinMaxScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
+* [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_standard.py), a python file to preprocess data using StandardScaler.
+
+* [preprocessing_minmax.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_minmax.py), a python file to preprocess data using MinMaxScaler.
+
+* [standardScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/standardScaler/standardScaler.xlsx), an excel file contains the preprocessed data using StandardScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
+
+* [minMaxScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler/minMaxScaler.xlsx), an excel file contains the preprocessed data using MinMaxScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
 
 ----------
 **Learning** (accomplished by Cheng)
