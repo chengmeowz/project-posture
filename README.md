@@ -107,7 +107,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
       metrics.r2_score (i.e. scoring=‘r2’)
 ```
 
-[learning.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/learning.py), a python file to do the learning as well as evaluation part.
+* [learning.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/learning.py), a python file to do the learning as well as evaluation part.
 
 
 ```diff 
