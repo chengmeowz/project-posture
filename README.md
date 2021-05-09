@@ -110,7 +110,9 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```
 
 ----------
-* [learning.ipynb](https://github.com/chengmeowz/project-posture/blob/main/code/learning.ipynb), a Jupyter Notebook file in Python to do the learning as well as evaluation part.
+* [learning.ipynb](https://github.com/chengmeowz/project-posture/blob/main/code/learning.ipynb), a Jupyter Notebook file in Python to do the learning and evaluation part.
+
+----------
 * [original folder](https://github.com/chengmeowz/project-posture/blob/main/original), a folder for storing the scatterplots of original data to compare X and y.
 * [standardScaler folder](https://github.com/chengmeowz/project-posture/blob/main/standardScaler), a folder for storing the scatterplots when preprocessing uses StandardScaler. 
 * [minMaxScaler folder](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler), a folder for storing the scatterplots when preprocessing uses MinMaxScaler.
@@ -121,6 +123,8 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
       y_MVPA: a folder for storing the scatterplots when y is MVPA and X is the other five variables.
       y_totalArea: a folder for storing the scatterplots when y is totalArea and X is the other five variables.
 ```
+
+----------
 * Additional Documents:
    * [COSC 495_Project Posture](https://docs.google.com/presentation/d/1cfuVeE14G9vV4S8qKKgroqwdNNoAP2vRqOGpF-i5RBg/edit#slide=id.gd6d2da403d_4_22), a google slide for Capstone Project presentation.
    * [Posturography project](https://docs.google.com/document/d/187VSRm5dXfQdjyiPVOmLSTtaU2VaujCz8QU5Zh54fZw/edit?ts=606652d3), a google doc w/ instructions from Professor Scalzo.
