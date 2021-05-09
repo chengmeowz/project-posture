@@ -56,7 +56,9 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 
 - [X] Average the 3 trials for each condition to get an overall average score for **Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)** for each condition (i.e., we will have 4 average Total Area (cm²) scores)
 
-[variables.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/variables.xlsx), an excel file contains an overall average score for Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), Total Velocity (cm/s), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
+* [variables.py](https://github.com/chengmeowz/project-posture/blob/main/code/variables.py), a Python file to average the 3 trials for each condition to get an overall average score.
+
+* [variables.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/variables.xlsx), an excel file contains an overall average score for Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), Total Velocity (cm/s), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
 
 - [X] Decide X and Y. 
    - we set X as Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s);
@@ -70,9 +72,9 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
    - We implemented both [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) and [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler).
 
-* [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_standard.py), a python file to preprocess data using StandardScaler.
+* [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_standard.py), a Python file to preprocess data using StandardScaler.
 
-* [preprocessing_minMax.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_minMax.py), a python file to preprocess data using MinMaxScaler.
+* [preprocessing_minMax.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_minMax.py), a Python file to preprocess data using MinMaxScaler.
 
 * [standardScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/standardScaler/standardScaler.xlsx), an excel file contains the preprocessed data using StandardScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
 
@@ -109,14 +111,15 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 
 ----------
 * [learning.ipynb](https://github.com/chengmeowz/project-posture/blob/main/code/learning.ipynb), a Jupyter Notebook file in Python to do the learning as well as evaluation part.
+* [original folder](https://github.com/chengmeowz/project-posture/blob/main/original), a folder for storing the scatterplots of original data when comparing X and y.
 * [standardScaler folder](https://github.com/chengmeowz/project-posture/blob/main/standardScaler), a folder for storing the scatterplots when preprocessing uses StandardScaler. 
 * [minMaxScaler folder](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler), a folder for storing the scatterplots when preprocessing uses MinMaxScaler.
    * For both folders, the explanation of folders inside them is: 
 ```diff
-      x_MVPA_y_totalArea: a folder for storing the scatterplots when y is Total Area and x is MVPA.
-      x_totalArea_y_MVPA: a folder for storing the scatterplots when y is MVPA and x is Total Area.
-      y_MVPA: a folder for storing the scatterplots when y is MVPA and x is the other five variables.
-      y_totalArea: a folder for storing the scatterplots when y is totalArea and x is the other five variables.
+      x_MVPA_y_totalArea: a folder for storing the scatterplots when y is Total Area and X is MVPA.
+      x_totalArea_y_MVPA: a folder for storing the scatterplots when y is MVPA and X is Total Area.
+      y_MVPA: a folder for storing the scatterplots when y is MVPA and X is the other five variables.
+      y_totalArea: a folder for storing the scatterplots when y is totalArea and X is the other five variables.
 ```
 
 ```diff 
