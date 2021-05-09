@@ -34,7 +34,7 @@ The calculation for variables is based on
 
 ![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg?)
 
-[*copMeasures.ipynb*](https://colab.research.google.com/drive/1oOHwtgAxazdcARhygBb5DLKYAf-HDTT8?usp=sharing#scrollTo=8MrFIHv6OpQu), a Jupyter Notebook file in Python using google colab for the variables calculation.
+[*copMeasures.ipynb*](https://colab.research.google.com/drive/1oOHwtgAxazdcARhygBb5DLKYAf-HDTT8?usp=sharing#scrollTo=8MrFIHv6OpQu), a Jupyter Notebook file in Python using Google Colab for the variables calculation.
 
 ### Step_2
 **Exploratory Analysis/Machine Learning**
