@@ -61,8 +61,8 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 * [variables.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/variables.xlsx), an excel file contains an overall average score for Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), Total Velocity (cm/s), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
 
 - [X] Decide X and Y. 
-   - we set X as Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s);
-   - Y as MVPA_minutes.week first, and do it again later with switching them
+   - We set Y as MVPA_minutes.week and X as the other five variables first, and 
+   - do it again with Y as Total Area (cm²) and X as the other five variables.
 
 
 ----------
