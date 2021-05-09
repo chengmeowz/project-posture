@@ -72,7 +72,7 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 
 * [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_standard.py), a python file to preprocess data using StandardScaler.
 
-* [preprocessing_minmax.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_minmax.py), a python file to preprocess data using MinMaxScaler.
+* [preprocessing_minMax.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_minMax.py), a python file to preprocess data using MinMaxScaler.
 
 * [standardScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/standardScaler/standardScaler.xlsx), an excel file contains the preprocessed data using StandardScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
 
