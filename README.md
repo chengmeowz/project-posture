@@ -68,8 +68,15 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 
 - [X] Apply [pre-processing](https://scikit-learn.org/stable/modules/preprocessing.html) to the data (Standardization)
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
+   - We implemented both [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) and [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler).
 
-[y_MVPA.xlsx](https://github.com/chengmeowz/project-posture/blob/main/y_MVPA/y_MVPA.xlsx), an excel file contains the preprocessed data for y (MVPA_minutes.week) and X (Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
+* [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_standard.py), a python file to preprocess data using StandardScaler.
+
+* [preprocessing_minmax.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_minmax.py), a python file to preprocess data using MinMaxScaler.
+
+* [standardScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/standardScaler/standardScaler.xlsx), an excel file contains the preprocessed data using StandardScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
+
+* [minMaxScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler/minMaxScaler.xlsx), an excel file contains the preprocessed data using MinMaxScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
 
 ----------
 **Learning** (accomplished by Cheng)
@@ -89,10 +96,10 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 ```
 
 ----------
-**Evaluation** (accomplished by Sunny)
+**Evaluation** (accomplished by Cheng & Sunny)
 
 - [X] Perform the [evaluation using a metric for regression](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
-   - We used our model to find y_true and y_pred to draw the graph for a more visualized result, comparing the result from six models with the original data.
+   - We used our model to find y_true and y_pred to draw the graph for a more visualized result, comparing the result from the predicted y value using our six models with the original data.
    - We also implemented the scoring methods (built in GridSearchCV for regression) below to interpret our models: 
 ```diff
       metrics.mean_absolute_error (i.e. scoring='neg_mean_absolute_error')
@@ -100,20 +107,11 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
       metrics.r2_score (i.e. scoring=‘r2’)
 ```
 
-<h2>Temporary Schedule</h2>
+* [learning.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/learning.py), a python file to do the learning as well as evaluation part.
+
 
 ```diff 
-! Orange = YOUR DUE!!! 
-@@ Purple = meet w/ Scalzo @@ 
-+ Green = meet w/ each other 
-# Gray = remark/completed (Your mission is right below your name.)
-```
-
-<h3>Congratulations! (/≧▽≦)/</h3><br/>
-
-```diff 
-+ Re-do x_MVPA_y_TotalArea (May. 8-9, Beijing Time) 
-+ Rehearsal (May. 10-11, Beijing Time) 
++ Rehearsal (May. 10, Beijing Time) 
 ```
 <br/>
 <h1>【The Day】─=≡Σ(((つ•̀ω•́)つ 
