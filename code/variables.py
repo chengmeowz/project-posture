@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# To get average values in 3 trials for each condition
 # author: Sunny Qu
 # modified by: Cheng Zheng (add path, so the address don't need to change for different users.)
 

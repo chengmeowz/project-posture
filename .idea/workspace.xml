@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1027e74-e8eb-492a-bfc7-4c4e22022468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project_posture/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/AdaBoost.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/AdaBoost.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/KernelRidge.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/KernelRidge.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/NeuralNetwork.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/NeuralNetwork.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/RandomForest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/RandomForest.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/Ridge.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/Ridge.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/SupportVectorMachine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/SupportVectorMachine.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y_MVPA/x_TotalArea_y_MVPA_AdaBoost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/y_MVPA/x_TotalArea_y_MVPA_AdaBoost.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/y_MVPA/x_TotalArea_y_MVPA_RandomForest1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/y_MVPA/x_TotalArea_y_MVPA_RandomForest1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/y_MVPA/y_MVPA.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/y_MVPA/y_MVPA.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y_TotalArea_x_MVPA/y_TotalArea_x_MVPA.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_KernelRidge().png" beforeDir="false" afterPath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_KernelRidge().png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_Ridge().png" beforeDir="false" afterPath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_Ridge().png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_posture/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_posture/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/Untitled1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_posture/learning-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/learning-Copy1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_posture/learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/learning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_posture/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,24 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project_posture/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
-              <folding>
-                <element signature="e#776#840#0" />
-                <element signature="e#899#1282#0" />
-                <element signature="e#1339#1822#0" />
-                <element signature="e#7080#7555#0" />
-                <element signature="e#7668#7748#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +52,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,7 +69,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,9 +202,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,27 +240,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/project_posture/cache/learning_py.py" />
-    <entry file="file://$PROJECT_DIR$/project_posture/test_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#62#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project_posture/test_preprocess.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
-          <folding>
-            <element signature="e#776#840#0" />
-            <element signature="e#899#1282#0" />
-            <element signature="e#1339#1822#0" />
-            <element signature="e#7080#7555#0" />
-            <element signature="e#7668#7748#0" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
         </state>
       </provider>
     </entry>

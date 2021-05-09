@@ -1,6 +1,5 @@
-
 # -*- coding: utf-8 -*-
-# pre-processing
+# pre-processing: StandardScaler
 # author: Sunny Qu
 
 import os
@@ -54,7 +53,6 @@ other['aveML_RMS'] = aveML_RMS_
 other['aveDisplacement'] = aveDisplacement_
 other['aveVelocity'] = aveVelocity_
 other['MVPA'] = MVPA_
-
 
 other.to_excel(path_up1Dir + '/standardScaler/standardScaler.xlsx')
 
