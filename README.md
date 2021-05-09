@@ -109,8 +109,8 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 
 ----------
 * [learning.ipynb](https://github.com/chengmeowz/project-posture/blob/main/code/learning.ipynb), a Jupyter Notebook file in Python to do the learning as well as evaluation part.
-* [standardScaler folder](), a folder for storing the scatterplots when preprocessing uses StandardScaler. 
-* [minMaxScaler folder](), a folder for storing the scatterplots when preprocessing uses MinMaxScaler.
+* [standardScaler folder](https://github.com/chengmeowz/project-posture/blob/main/standardScaler), a folder for storing the scatterplots when preprocessing uses StandardScaler. 
+* [minMaxScaler folder](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler), a folder for storing the scatterplots when preprocessing uses MinMaxScaler.
    * For both folders, the explanation of folders inside them is: 
 ```diff
       x_MVPA_y_totalArea: a folder for storing the scatterplots when y is Total Area and x is MVPA.
