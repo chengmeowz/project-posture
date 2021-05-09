@@ -54,7 +54,7 @@ The calculation for variables is based on
 ----------
 **Pre-work** (accomplished by Sunny)
 
-- [X] Average the 3 trials for each condition to get an overall average score for **Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)** for each condition (i.e., we will have 4 average Total Area (cm²) scores)
+- [X] Average the 3 trials for each condition to get an overall average score for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s), i.e., we will have 4 average Total Area (cm²) scores.
 
 * [variables.py](https://github.com/chengmeowz/project-posture/blob/main/code/variables.py), a Python file to average the 3 trials for each condition to get an overall average score.
 
