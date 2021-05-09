@@ -21,7 +21,6 @@ The calculation for variables is based on
    	- [Step 1: Discrete Variable Calculations](#step_1)
    	- [Step 2: Exploratory Analysis/Machine Learning](#step_2)
 - [Install](#install)
-- [Usage](#usage)
 - [Maintainers/Developers](#maintainers_developers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -121,16 +120,11 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
       y_MVPA: a folder for storing the scatterplots when y is MVPA and X is the other five variables.
       y_totalArea: a folder for storing the scatterplots when y is totalArea and X is the other five variables.
 ```
+* Additional Documents:
+   * [COSC 495_Project Posture](https://docs.google.com/presentation/d/1cfuVeE14G9vV4S8qKKgroqwdNNoAP2vRqOGpF-i5RBg/edit#slide=id.gd6d2da403d_4_22), a google slide for Capstone Project presentation.
+   * [Posturography project](https://docs.google.com/document/d/187VSRm5dXfQdjyiPVOmLSTtaU2VaujCz8QU5Zh54fZw/edit?ts=606652d3), a google doc w/ instructions from Professor Scalzo.
+   * [project document.docx](https://github.com/chengmeowz/project-posture/blob/main/project document.docx), a doc (some in Chineses) contains our temporary schedule, links when we share w/ each other for new information, steps, etc.
 
-```diff 
-+ Rehearsal (May. 10, Beijing Time) 
-```
-<br/>
-<h1>【The Day】─=≡Σ(((つ•̀ω•́)つ 
-   <br/> 
-   Natural Science Seminar (send recording before 0 am, May. 12, Beijing Time)
-</h1>
-<br/>
 
 ## Install
 
@@ -154,11 +148,6 @@ This project uses the [Jupyter Notebook](https://jupyter.org/install). Go check 
 ```
 sh
 $ npm install --global project-posture-[placeholder]
-```
-
-## Usage
-
-```
 ```
 
 ## Maintainers_Developers
