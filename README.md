@@ -70,9 +70,9 @@ Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores 
 [*Reference*](https://towardsdatascience.com/data-preprocessing-in-python-b52b652e37d5)
    - We implemented both [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) and [MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler).
 
-* [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_standard.py), a python file to preprocess data using StandardScaler.
+* [preprocessing_standard.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_standard.py), a python file to preprocess data using StandardScaler.
 
-* [preprocessing_minmax.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/preprocessing_minmax.py), a python file to preprocess data using MinMaxScaler.
+* [preprocessing_minmax.py](https://github.com/chengmeowz/project-posture/blob/main/code/preprocessing_minmax.py), a python file to preprocess data using MinMaxScaler.
 
 * [standardScaler.xlsx](https://github.com/chengmeowz/project-posture/blob/main/standardScaler/standardScaler.xlsx), an excel file contains the preprocessed data using StandardScaler for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s)).
 
@@ -107,7 +107,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
       metrics.r2_score (i.e. scoring=‘r2’)
 ```
 
-* [learning.py](https://github.com/chengmeowz/project-posture/blob/main/project_posture/learning.py), a python file to do the learning as well as evaluation part.
+* [learning.py](https://github.com/chengmeowz/project-posture/blob/main/code/learning.py), a python file to do the learning as well as evaluation part.
 
 
 ```diff 
