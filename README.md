@@ -40,7 +40,8 @@ The calculation for variables is based on
 **Exploratory Analysis/Machine Learning**
 
 * 【Overall Goal】<br/>
-Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam) as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
+   * Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam) as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
+   * Predict Total Area (cm²) from MVPA_minutes.week as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
 * 【Used Algorithms】[*Reference*](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
    1. [Ridge regression](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification)
    2. [Kernel ridge regression](https://scikit-learn.org/stable/modules/kernel_ridge.html)
