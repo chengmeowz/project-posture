@@ -32,7 +32,7 @@ The calculation for variables is based on
 
 - [X] Calculate the variables using numpy, pandas, matplotlib.pyplot, zipfile, and welch from scipy.signal in Python.
 
-![Image text](https://www.google.com.hk/url?sa=i&url=https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2FRevision-of-posturography-based-on-force-plate-for-Duarte-Freitas%2F32227494fbff2efb4336bc8034e92a46fbb31002&psig=AOvVaw2yq4DodN28b6rHFZfmFAPi&ust=1620751547876000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiV2JXIv_ACFQAAAAAdAAAAABAD)
+![Image text](https://d3i71xaburhd42.cloudfront.net/aaf83037f4bb3b767e778c09ac30066eeb7f56cb/7-Table1-1.png)
 
 [*copMeasures.ipynb*](https://colab.research.google.com/drive/1oOHwtgAxazdcARhygBb5DLKYAf-HDTT8?usp=sharing#scrollTo=8MrFIHv6OpQu), a Jupyter Notebook file in Python using Google Colab for the variables calculation.
 
