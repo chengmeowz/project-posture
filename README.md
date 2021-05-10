@@ -32,7 +32,7 @@ The calculation for variables is based on
 
 - [X] Calculate the variables using numpy, pandas, matplotlib.pyplot, zipfile, and welch from scipy.signal in Python.
 
-![alt text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg)
+![Image text](https://github.com/chengmeowz/project-posture/blob/main/extra/variables_calculation.jpg)
 
 [*copMeasures.ipynb*](https://colab.research.google.com/drive/1oOHwtgAxazdcARhygBb5DLKYAf-HDTT8?usp=sharing#scrollTo=8MrFIHv6OpQu), a Jupyter Notebook file in Python using Google Colab for the variables calculation.
 
