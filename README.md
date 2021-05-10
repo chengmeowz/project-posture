@@ -113,9 +113,9 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 * [learning.ipynb](https://github.com/chengmeowz/project-posture/blob/main/code/learning.ipynb), a Jupyter Notebook file in Python to do the learning and evaluation part.
 
 ----------
-* [original folder](https://github.com/chengmeowz/project-posture/blob/main/original), a folder for storing the scatterplots of original data to compare X and y.
-* [standardScaler folder](https://github.com/chengmeowz/project-posture/blob/main/standardScaler), a folder for storing the scatterplots when preprocessing uses StandardScaler. 
-* [minMaxScaler folder](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler), a folder for storing the scatterplots when preprocessing uses MinMaxScaler.
+* [original](https://github.com/chengmeowz/project-posture/blob/main/original), a folder for storing the scatterplots of original data to compare X and y.
+* [standardScaler](https://github.com/chengmeowz/project-posture/blob/main/standardScaler), a folder for storing the scatterplots when preprocessing uses StandardScaler. 
+* [minMaxScaler](https://github.com/chengmeowz/project-posture/blob/main/minMaxScaler), a folder for storing the scatterplots when preprocessing uses MinMaxScaler.
    * For both folders, the explanation of folders inside them is: 
 ```diff
       x_MVPA_y_totalArea: a folder for storing the scatterplots when y is Total Area and X is MVPA.
@@ -139,16 +139,15 @@ Make sure Python 3 is installed on your machine.
 
 The following packages are used/imported in the scripts, please install them:
 
-* [graphviz](https://graphviz.org/)
 * [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
 * [os](https://docs.python.org/3/library/os.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/os.py))
 * [pandas](https://pandas.pydata.org/)
-* [scikit-learn](https://scikit-learn.org/stable/index.html)
+* [scikit-learn OR sklearn](https://scikit-learn.org/stable/index.html)
 * [scipy](https://www.scipy.org/)
 * [zipfile](https://docs.python.org/3/library/zipfile.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/zipfile.py))
 
-This project uses the [Jupyter Notebook](https://jupyter.org/install). Go check it out if you don't have them locally installed.
+This project uses the [Jupyter Notebook](https://jupyter.org/install) partially. Go check it out if you don't have them locally installed.
 
 ```
 sh
