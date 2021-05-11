@@ -126,6 +126,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 
 ----------
 * Additional Documents:
+   * [COSC 495_Project Posture Document](https://docs.google.com/document/d/1V-mI-3vDQ6-GY3iUvb9CrLeeRYSuZqQdGyy8Qzy82oA/edit#), a google doc of things related to our project in full version.
    * [COSC 495_Project Posture](https://docs.google.com/presentation/d/1cfuVeE14G9vV4S8qKKgroqwdNNoAP2vRqOGpF-i5RBg/edit#slide=id.gd6d2da403d_4_22), a google slide for Capstone Project presentation.
    * [Posturography project](https://docs.google.com/document/d/187VSRm5dXfQdjyiPVOmLSTtaU2VaujCz8QU5Zh54fZw/edit?ts=606652d3), a google doc w/ instructions from Professor Scalzo.
    * [project_document.docx](https://github.com/chengmeowz/project-posture/blob/main/project_document.docx), a doc (some in Chinese) contains our temporary schedule, links when we share w/ each other for new information, steps, etc.
