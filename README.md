@@ -144,6 +144,7 @@ The following packages are used/imported in the scripts, please install them:
 
 * [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
+* [openpyxl](https://pypi.org/project/openpyxl/)
 * [os](https://docs.python.org/3/library/os.html) ([source code](https://github.com/python/cpython/blob/3.9/Lib/os.py))
 * [pandas](https://pandas.pydata.org/)
 * [scikit-learn OR sklearn](https://scikit-learn.org/stable/index.html)
