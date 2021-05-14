@@ -1,6 +1,6 @@
 # Project Posture
 
-Project Posture is a project for COSC 495 Senior Capstone from Pepperdine University taught by Professor [Fabien Scalzo](http://web.cs.ucla.edu/~fab/) and co-advised by Professor [Adam Pennell](https://seaver.pepperdine.edu/academics/faculty/adam-pennell/) based on Python language development. Its purpose is to investigate for linear and/or non-linear associations between various posturography and self-reported physical activity metrics using data analytics, machine learning, and/or related techniques/processes. 
+Project Posture is a project for COSC 490 Senior Capstone from Pepperdine University taught by Professor [Fabien Scalzo](http://web.cs.ucla.edu/~fab/) and co-advised by Professor [Adam Pennell](https://seaver.pepperdine.edu/academics/faculty/adam-pennell/) based on Python language development. Its purpose is to investigate for linear and/or non-linear associations between various posturography and self-reported physical activity metrics using data analytics, machine learning, and/or related techniques/processes. 
 
 [![license](https://img.shields.io/github/license/chengmeowz/project-posture.svg)](https://github.com/chengmeowz/project-posture/blob/main/LICENSE)
 ![author](https://img.shields.io/badge/Author-Cheng&Sunny-blue.svg)
@@ -126,8 +126,8 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 
 ----------
 * Additional Documents:
-   * [COSC 495_Project Posture Document](https://docs.google.com/document/d/1V-mI-3vDQ6-GY3iUvb9CrLeeRYSuZqQdGyy8Qzy82oA/edit#), a google doc of things related to our project in full version.
-   * [COSC 495_Project Posture](https://docs.google.com/presentation/d/1cfuVeE14G9vV4S8qKKgroqwdNNoAP2vRqOGpF-i5RBg/edit#slide=id.gd62683932d_6_79), a google slide for Capstone Project presentation.
+   * [COSC 490_Project Posture Document](https://docs.google.com/document/d/1V-mI-3vDQ6-GY3iUvb9CrLeeRYSuZqQdGyy8Qzy82oA/edit#), a google doc of things related to our project in full version.
+   * [COSC 490_Project Posture](https://docs.google.com/presentation/d/1cfuVeE14G9vV4S8qKKgroqwdNNoAP2vRqOGpF-i5RBg/edit#slide=id.gd62683932d_6_79), a google slide for Capstone Project presentation.
    * [Posturography project](https://docs.google.com/document/d/187VSRm5dXfQdjyiPVOmLSTtaU2VaujCz8QU5Zh54fZw/edit?ts=606652d3), a google doc w/ instructions from Professor Scalzo.
    * [project_document.docx](https://github.com/chengmeowz/project-posture/blob/main/project_document.docx), a doc (some in Chinese) contains our temporary schedule, links when we share w/ each other for new information, steps, etc.
    * [learning_1st_ver](https://github.com/chengmeowz/project-posture/blob/main/code/learning_1st_ver), a folder contains six Jupyter Notebook files in Python which are our first version to do the learning and evaluation part, because we wrote the code at first for each algorithm and combined them later to the [learning.ipynb](https://github.com/chengmeowz/project-posture/blob/main/code/learning.ipynb) when we found there're lots of similar codes.
