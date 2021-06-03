@@ -16,7 +16,6 @@ clean = np.array(dataset.iloc[:,:-3])
 robust_scaler = preprocessing.RobustScaler()
 clean_robust = robust_scaler.fit_transform(clean)
 #check
-#print('cr = ', clean_robust)
 #x = np.array(dataset.iloc[:,:1]) 
 #print(x)
 #Q1 = np.percentile(x, 25)
