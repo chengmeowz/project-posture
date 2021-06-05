@@ -6,15 +6,13 @@
 import os
 import pandas as pd
 import numpy as np
-from openpyxl import load_workbook, Workbook
 
 # Get the project directory
 path_current = os.getcwd() # get current path, aka this python file directory
 path_project = os.path.dirname(path_current) # go up one directory, aka find the project directory
 
 experiment = pd.read_excel(path_project + '/BDS/BDSinfo_modified.xlsx') # read first sheet from xlsx
-column = ['Total Area (cm²)', 'AP RMS (cm)', 'ML RMS (cm)', 'Total Displacement (cm)', 'Total Velocity (cm/s)',
-          'MVPA_minutes.week', 'IPAQ_Category', 'Subject', 'Vision', 'Surface']
+column = ['Total Area (cm²)', 'AP RMS (cm)', 'ML RMS (cm)', 'Total Displacement (cm)', 'Total Velocity (cm/s)', 'MVPA_minutes.week', 'IPAQ_Category', 'Subject', 'Vision', 'Surface']
 column_index = [list(experiment.columns).index(i) for i in column]
 exp_ = np.array(experiment.iloc[:, column_index]).tolist()
 
