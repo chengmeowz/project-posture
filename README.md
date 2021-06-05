@@ -40,8 +40,8 @@ The calculation for variables is based on
 **Exploratory Analysis/Machine Learning**
 
 * 【Overall Goal】<br/>
-   * Predict MVPA_minutes.week from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam) as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
-   * Predict Total Area (cm²) from MVPA_minutes.week as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
+   * Predict MVPA_minutes.week and IPAQ_Category from any of the four Total Area (cm²) average scores (i.e., EO/firm; EO/foam; EC/firm; EC/foam) as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
+   * Predict Total Area (cm²) from MVPA_minutes.week and IPAQ_Category as well as AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity.
 * 【Used Algorithms】[*Reference*](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
    1. [Ridge regression](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression-and-classification)
    2. [Kernel ridge regression](https://scikit-learn.org/stable/modules/kernel_ridge.html)
@@ -54,15 +54,17 @@ The calculation for variables is based on
 ----------
 **Pre-work** (accomplished by Sunny)
 
-- [X] Average the 3 trials for each condition to get an overall average score for MVPA_minutes.week, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s), i.e., we will have 4 average Total Area (cm²) scores.
+- [X] Average the 3 trials for each condition to get an overall average score for MVPA_minutes.week, IPAQ_Category, Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), and Total Velocity (cm/s), i.e., we will have 4 average Total Area (cm²) scores.
 
 * [variables.py](https://github.com/chengmeowz/project-posture/blob/main/code/variables.py), a Python file to average the 3 trials for each condition to get an overall average score.
 
-* [variables.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/variables.xlsx), an excel file contains an overall average score for Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), Total Velocity (cm/s), MVPA_minutes.week, Subject, Vision, and Surface for each condition.
+* [variables.xlsx](https://github.com/chengmeowz/project-posture/blob/main/BDS/variables.xlsx), an excel file contains an overall average score for Total Area (cm²), AP RMS (cm), ML RMS (cm), Total Displacement (cm), Total Velocity (cm/s), MVPA_minutes.week, IPAQ_Category, Subject, Vision, and Surface for each condition.
 
 - [X] Decide X and Y. 
    - We set Y as MVPA_minutes.week and X as the other five variables first, and 
    - do it again with Y as Total Area (cm²) and X as the other five variables.
+   - Then we set Y as IPAQ_Category and X as *the other five variables first*, and 
+   - do it again with Y as Total Area (cm²) and X as *the other five variables*.
 
 
 ----------
