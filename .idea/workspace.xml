@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1027e74-e8eb-492a-bfc7-4c4e22022468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_KernelRidge().png" beforeDir="false" afterPath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_KernelRidge().png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_Ridge().png" beforeDir="false" afterPath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_Ridge().png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/Untitled1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/learning-Copy1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/learning-Copy1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_posture/learning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_posture/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/variables.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/variables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="55" column="20" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +44,7 @@
         <option value="$PROJECT_DIR$/project_posture/cache/learning_py.py" />
         <option value="$PROJECT_DIR$/project_posture/test_preprocess.py" />
         <option value="$PROJECT_DIR$/project_posture/test.py" />
+        <option value="$PROJECT_DIR$/code/variables.py" />
       </list>
     </option>
   </component>
@@ -52,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,12 +68,13 @@
             <path>
               <item name="project-posture" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-posture" type="462c0819:PsiDirectoryNode" />
-              <item name="project_posture" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +209,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11275546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,22 +235,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_posture/average total area.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/learning.py" />
-    <entry file="file://$PROJECT_DIR$/project_posture/preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project_posture/preprocessing.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/learning.ipynb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/project_posture/cache/learning_py.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/test_preprocess.py" />
-    <entry file="file://$PROJECT_DIR$/project_posture/test.py">
+    <entry file="file://$PROJECT_DIR$/project_posture/test.py" />
+    <entry file="file://$PROJECT_DIR$/code/learning.ipynb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        <state relative-caret-position="-2774" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="55" column="20" selection-end-line="75" />
         </state>
       </provider>
     </entry>
