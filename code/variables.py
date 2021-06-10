@@ -12,9 +12,6 @@ path_current = os.getcwd() # get current path, aka this python file directory
 path_project = os.path.dirname(path_current) # go up one directory, aka find the project directory
 
 experiment = pd.read_excel(path_project + '/BDS/BDSinfo_modified.xlsx') # read first sheet from xlsx
-tmp = np.array(experiment['MVPA_minutes.week'])
-tmp[420] = 80
-experiment['MVPA_minutes.week'] = tmp
 column = ['Total Area (cm²)', 'AP RMS (cm)', 'ML RMS (cm)', 'Total Displacement (cm)', 'Total Velocity (cm/s)', 'MVPA_minutes.week', 'IPAQ_Category', 'Subject', 'Vision', 'Surface']
 column_index = [list(experiment.columns).index(i) for i in column]
 exp_ = np.array(experiment.iloc[:, column_index]).tolist()
@@ -45,5 +42,6 @@ df2 = pd.DataFrame(outline, columns=['MVPA_minutes.week', 'IPAQ_Category', 'Subj
 df2['IPAQ_Category'] = df2.IPAQ_Category.map(lambda x: 3 if x == 'High' else (2 if x == 'Moderate' else 1)) # change low to 1, etc.
 
 result = pd.concat([df1, df2], axis=1) # combine df1 with df2 (no axis means increasing row)
+result = result.drop(index=(result.loc[(result['Subject'] == 36)].index))
 result.sort_values(by=['Subject', 'Vision', 'Surface'], axis=0, ascending=True) # sort the dataframe
 result.to_excel(excel_writer=path_project+'/BDS/variables.xlsx', index=False)

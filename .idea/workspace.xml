@@ -2,8 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1027e74-e8eb-492a-bfc7-4c4e22022468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BDS/variables.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/BDS/variables.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/minMaxScaler.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/minMaxScaler/minMaxScaler.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_AdaBoostRegressor()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_KernelRidge()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_MLPRegressor()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_RandomForestRegressor()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_Ridge()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_SVR()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_MVPA_y_totalArea/scatter_smallScale_AdaBoostRegressor()_y_totalArea_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_totalArea_y_MVPA/scatter_AdaBoostRegressor()_y_MVPA_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_totalArea_y_MVPA/scatter_KernelRidge()_y_MVPA_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_totalArea_y_MVPA/scatter_MLPRegressor()_y_MVPA_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_totalArea_y_MVPA/scatter_RandomForestRegressor()_y_MVPA_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_totalArea_y_MVPA/scatter_Ridge()_y_MVPA_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/x_totalArea_y_MVPA/scatter_SVR()_y_MVPA_1X_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_AdaBoostRegressor()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_KernelRidge()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_MLPRegressor()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_RandomForestRegressor()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_Ridge()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_SVR()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_smallScale_AdaBoostRegressor()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_smallScale_KernelRidge()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_smallScale_MLPRegressor()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_smallScale_RandomForestRegressor()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_smallScale_Ridge()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_MVPA/scatter_smallScale_SVR()_y_MVPA_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_AdaBoostRegressor()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_KernelRidge()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_MLPRegressor()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_RandomForestRegressor()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_Ridge()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_SVR()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_smallScale_AdaBoostRegressor()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_smallScale_KernelRidge()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_smallScale_MLPRegressor()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_smallScale_RandomForestRegressor()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_smallScale_Ridge()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minMaxScaler/y_totalArea/scatter_smallScale_SVR()_y_totalArea_5Xs_MinMaxScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robustScaler/robustScaler.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/robustScaler/robustScaler.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/standardScaler.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/standardScaler/standardScaler.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_MVPA_y_totalArea/scatter_AdaBoostRegressor()_y_totalArea_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_MVPA_y_totalArea/scatter_KernelRidge()_y_totalArea_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_MVPA_y_totalArea/scatter_MLPRegressor()_y_totalArea_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_MVPA_y_totalArea/scatter_RandomForestRegressor()_y_totalArea_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_MVPA_y_totalArea/scatter_Ridge()_y_totalArea_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_MVPA_y_totalArea/scatter_SVR()_y_totalArea_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_totalArea_y_MVPA/scatter_AdaBoostRegressor()_y_MVPA_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_totalArea_y_MVPA/scatter_KernelRidge()_y_MVPA_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_totalArea_y_MVPA/scatter_MLPRegressor()_y_MVPA_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_totalArea_y_MVPA/scatter_RandomForestRegressor()_y_MVPA_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_totalArea_y_MVPA/scatter_Ridge()_y_MVPA_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/x_totalArea_y_MVPA/scatter_SVR()_y_MVPA_1X_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_MVPA/scatter_AdaBoostRegressor()_y_MVPA_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_MVPA/scatter_KernelRidge()_y_MVPA_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_MVPA/scatter_MLPRegressor()_y_MVPA_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_MVPA/scatter_RandomForestRegressor()_y_MVPA_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_MVPA/scatter_Ridge()_y_MVPA_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_MVPA/scatter_SVR()_y_MVPA_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_totalArea/scatter_AdaBoostRegressor()_y_totalArea_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_totalArea/scatter_KernelRidge()_y_totalArea_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_totalArea/scatter_MLPRegressor()_y_totalArea_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_totalArea/scatter_RandomForestRegressor()_y_totalArea_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_totalArea/scatter_Ridge()_y_totalArea_5Xs_StandardScaler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/standardScaler/y_totalArea/scatter_SVR()_y_totalArea_5Xs_StandardScaler.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +77,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/variables.py">
+        <entry file="file://$PROJECT_DIR$/code/preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="55" column="20" selection-end-line="75" />
+            <state relative-caret-position="400">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="e#61#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +113,7 @@
         <option value="$PROJECT_DIR$/project_posture/test_preprocess.py" />
         <option value="$PROJECT_DIR$/project_posture/test.py" />
         <option value="$PROJECT_DIR$/code/variables.py" />
+        <option value="$PROJECT_DIR$/code/preprocessing.py" />
       </list>
     </option>
   </component>
@@ -99,8 +168,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="average total area" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.preprocessing (1)">
+    <configuration name="preprocessing (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="project-posture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_posture" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_posture/average total area.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/preprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,12 +253,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project-posture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/variables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.preprocessing (1)" />
+        <item itemvalue="Python.variables" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test_preprocess" />
         <item itemvalue="Python.preprocessing" />
-        <item itemvalue="Python.average total area" />
       </list>
     </recent_temporary>
   </component>
@@ -208,8 +299,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11275546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11275546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,15 +322,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project_posture/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/project_posture/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project_posture/__init__.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/average total area.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/learning.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/preprocessing.py" />
-    <entry file="file://$PROJECT_DIR$/project_posture/learning.ipynb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project_posture/learning.ipynb" />
     <entry file="file://$PROJECT_DIR$/project_posture/cache/learning_py.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/test_preprocess.py" />
     <entry file="file://$PROJECT_DIR$/project_posture/test.py" />
@@ -249,8 +337,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/variables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="55" column="20" selection-end-line="75" />
+        <state relative-caret-position="275">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#61#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
