@@ -1,0 +1,7 @@
+
+------ /standardScaler/y_IPAQ ------
+[Ridge]Best score in neg_mean_absolute_error: -0.89
+------ /standardScaler/y_IPAQ ------
+[Ridge]Best score in neg_mean_absolute_error: -0.89Best score in neg_mean_squared_error: -1.02Best score in r2: -0.21
+
+[Kernel Ridge]

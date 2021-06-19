@@ -43,5 +43,6 @@ df2['IPAQ_Category'] = df2.IPAQ_Category.map(lambda x: 3 if x == 'High' else (2 
 
 result = pd.concat([df1, df2], axis=1) # combine df1 with df2 (no axis means increasing row)
 result = result.drop(index=(result.loc[(result['Subject'] == 36)].index))
+result.rename(columns={'MVPA_minutes.week':'MVPA', 'IPAQ_Category':'IPAQ'}, inplace=True)
 result.sort_values(by=['Subject', 'Vision', 'Surface'], axis=0, ascending=True) # sort the dataframe
 result.to_excel(excel_writer=path_project+'/BDS/variables.xlsx', index=False)

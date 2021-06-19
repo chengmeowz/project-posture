@@ -1,0 +1,26 @@
+
+------ /robustScaler/y_IPAQ_x_totalArea ------
+[Ridge]Best score in neg_mean_absolute_error: -0.65Best score in neg_mean_squared_error: -0.55Best score in r2: -0.21
+
+[Kernel Ridge]Best score in neg_mean_absolute_error: -0.50Best score in neg_mean_squared_error: -0.54Best score in r2: -0.16
+
+[AdaBoost]Best score in neg_mean_absolute_error: -0.65Best score in neg_mean_squared_error: -0.54Best score in r2: -0.21
+
+[Random Forest]Best score in neg_mean_absolute_error: -0.63Best score in neg_mean_squared_error: -0.54Best score in r2: -0.19
+
+[Neural Network]Best score in neg_mean_absolute_error: -0.65Best score in neg_mean_squared_error: -0.55Best score in r2: -0.21
+
+[Support Vector Machine]Best score in neg_mean_absolute_error: -0.53Best score in neg_mean_squared_error: -0.69Best score in r2: -0.35
+
+------ /robustScaler/y_IPAQ ------
+[Ridge]Best score in neg_mean_absolute_error: -0.65Best score in neg_mean_squared_error: -0.55Best score in r2: -0.21
+
+[Kernel Ridge]Best score in neg_mean_absolute_error: -0.50Best score in neg_mean_squared_error: -0.55Best score in r2: -0.16
+
+[AdaBoost]Best score in neg_mean_absolute_error: -0.66Best score in neg_mean_squared_error: -0.56Best score in r2: -0.28
+
+[Random Forest]Best score in neg_mean_absolute_error: -0.65Best score in neg_mean_squared_error: -0.55Best score in r2: -0.21
+
+[Neural Network]Best score in neg_mean_absolute_error: -0.66Best score in neg_mean_squared_error: -0.58Best score in r2: -0.30
+
+[Support Vector Machine]
