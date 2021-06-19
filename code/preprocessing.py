@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, Or
 
 path = os.getcwd()#get current path
 path_project = os.path.dirname(path)#go up one directory
-dataset = pd.read_excel('/Users/sunnyqu/Desktop/Project/project-posture/BDS/variables.xlsx')#to import the dataset into a variable
+dataset = pd.read_excel(path_project+'/BDS/variables.xlsx')#to import the dataset into a variable
 
 output = dataset.iloc[:,-3:]
 clean = np.array(dataset.iloc[:,:-4]) 
@@ -37,7 +37,7 @@ result_mm.to_excel(path_project+'/minMaxScaler/minMaxScaler.xlsx')
 # Robust Scaler
 clean_robust = RobustScaler().fit_transform(clean)
 df_r = pd.DataFrame(clean_robust, columns=dataset.columns[:-4])
-result_r = pd.concat([output, df_r,IPAQ_Category], axis=1)
+result_r = pd.concat([output, df_r, IPAQ_Category], axis=1)
 result_r.rename(columns={'MVPA_minutes.week':'MVPA', 0:'IPAQ'}, inplace=True)
 result_r.to_excel(path_project+'/robustScaler/robustScaler.xlsx')
 
