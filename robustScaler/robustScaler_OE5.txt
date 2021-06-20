@@ -1,0 +1,31 @@
+
+------ /robustScaler/y_IPAQ ------
+[Ridge]
+Best score in neg_mean_absolute_error: -0.65
+Best score in neg_mean_squared_error: -0.55
+Best score in r2: -0.21
+
+[Kernel Ridge]
+Best score in neg_mean_absolute_error: -0.66
+Best score in neg_mean_squared_error: -0.57
+Best score in r2: -0.27
+
+[AdaBoost]
+Best score in neg_mean_absolute_error: -0.66
+Best score in neg_mean_squared_error: -0.56
+Best score in r2: -0.28
+
+[Random Forest]
+Best score in neg_mean_absolute_error: -0.65
+Best score in neg_mean_squared_error: -0.55
+Best score in r2: -0.21
+
+[Neural Network]
+Best score in neg_mean_absolute_error: -0.66
+Best score in neg_mean_squared_error: -0.57
+Best score in r2: -0.29
+
+[Support Vector Machine]
+Best score in neg_mean_absolute_error: -0.53
+Best score in neg_mean_squared_error: -0.66
+Best score in r2: -0.34
