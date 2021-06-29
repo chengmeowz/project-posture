@@ -38,9 +38,10 @@ outline = list(ave_dict.keys()) # save the key values
 
 df1 = pd.DataFrame({'aveTotalArea': a0, 'aveAP_RMS': a1, 'aveML_RMS': a2, 'aveDisplacement': a3, 'aveVelocity': a4})
 df2 = pd.DataFrame(outline, columns=['MVPA_minutes.week', 'IPAQ_Category', 'Subject', 'Vision', 'Surface']) 
-#df2['IPAQ_Category'] = df2.IPAQ_Category.map(lambda x: 3 if x == 'High' else (2 if x == 'Moderate' else 1)) # change low to 1, etc.
+df2['IPAQ_Category'] = df2.IPAQ_Category.map(lambda x: 3 if x == 'High' else (2 if x == 'Moderate' else 1)) # change low to 1, etc.
 
 result = pd.concat([df1, df2], axis=1) # combine df1 with df2 (no axis means increasing row)
 result = result.drop(index=(result.loc[(result['Subject'] == 36)].index))
+result.rename(columns={'MVPA_minutes.week':'MVPA', 'IPAQ_Category':'IPAQ'}, inplace=True)
 result.sort_values(by=['Subject', 'Vision', 'Surface'], axis=0, ascending=True) # sort the dataframe
 result.to_excel(excel_writer=path_project+'/BDS/variables.xlsx', index=False)

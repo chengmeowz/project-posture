@@ -1,0 +1,42 @@
+
+------ Ridge ------
+[/standardScaler/y_totalArea_x_MVPA]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.01Best score in r2: -0.05
+
+[/standardScaler/y_totalArea_x_IPAQ]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.01Best score in r2: -0.05
+
+[/standardScaler/y_totalArea]Best score in neg_mean_absolute_error: -0.32Best score in neg_mean_squared_error: -0.25Best score in r2: 0.74
+
+------ Kernel Ridge ------
+[/standardScaler/y_totalArea_x_MVPA]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.00Best score in r2: -0.04
+
+[/standardScaler/y_totalArea_x_IPAQ]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.00Best score in r2: -0.04
+
+[/standardScaler/y_totalArea]Best score in neg_mean_absolute_error: -0.31Best score in neg_mean_squared_error: -0.22Best score in r2: 0.76
+
+------ AdaBoost ------
+[/standardScaler/y_totalArea_x_MVPA]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.02Best score in r2: -0.07
+
+[/standardScaler/y_totalArea_x_IPAQ]Best score in neg_mean_absolute_error: -0.80Best score in neg_mean_squared_error: -1.02Best score in r2: -0.08
+
+[/standardScaler/y_totalArea]Best score in neg_mean_absolute_error: -0.32Best score in neg_mean_squared_error: -0.27Best score in r2: 0.72
+
+------ Random Forest ------
+[/standardScaler/y_totalArea_x_MVPA]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.01Best score in r2: -0.05
+
+[/standardScaler/y_totalArea_x_IPAQ]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.00Best score in r2: -0.06
+
+[/standardScaler/y_totalArea]Best score in neg_mean_absolute_error: -0.29Best score in neg_mean_squared_error: -0.23Best score in r2: 0.76
+
+------ Neural Network ------
+[/standardScaler/y_totalArea_x_MVPA]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.00Best score in r2: -0.05
+
+[/standardScaler/y_totalArea_x_IPAQ]Best score in neg_mean_absolute_error: -0.79Best score in neg_mean_squared_error: -1.01Best score in r2: -0.06
+
+[/standardScaler/y_totalArea]Best score in neg_mean_absolute_error: -0.31Best score in neg_mean_squared_error: -0.22Best score in r2: 0.75
+
+------ Support Vector Machine ------
+[/standardScaler/y_totalArea_x_MVPA]Best score in neg_mean_absolute_error: -0.76Best score in neg_mean_squared_error: -1.12Best score in r2: -0.14
+
+[/standardScaler/y_totalArea_x_IPAQ]Best score in neg_mean_absolute_error: -0.76Best score in neg_mean_squared_error: -1.12Best score in r2: -0.14
+
+[/standardScaler/y_totalArea]Best score in neg_mean_absolute_error: -0.30Best score in neg_mean_squared_error: -0.22Best score in r2: 0.76
