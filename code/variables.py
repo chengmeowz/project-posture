@@ -44,4 +44,6 @@ result = pd.concat([df1, df2], axis=1) # combine df1 with df2 (no axis means inc
 result = result.drop(index=(result.loc[(result['Subject'] == 36)].index))
 result.rename(columns={'MVPA_minutes.week':'MVPA', 'IPAQ_Category':'IPAQ'}, inplace=True)
 result.sort_values(by=['Subject', 'Vision', 'Surface'], axis=0, ascending=True) # sort the dataframe
-result.to_excel(excel_writer=path_project+'/BDS/variables.xlsx', index=False)
+result.to_excel(excel_writer=path_project+'/BDS/variables5.xlsx', index=False)
+result1 = result.drop(columns=['aveDisplacement', 'aveVelocity'])
+result1.to_excel(excel_writer=path_project+'/BDS/variables3.xlsx', index=False)
