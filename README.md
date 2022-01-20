@@ -128,6 +128,7 @@ Example for Kernel ridge regression using gridsearch to optimize the parameters 
 
 ----------
 * Additional Documents:
+   * [COSC 490 Final Presentation Video](https://drive.google.com/file/d/1PJ6pwwpMB73Pw1Wt6b7L5F4T-ZZ_rh5l/view?usp=sharing), the video for Capstone Project presentation in google drive.
    * [COSC 490_Project Posture Document](https://docs.google.com/document/d/1V-mI-3vDQ6-GY3iUvb9CrLeeRYSuZqQdGyy8Qzy82oA/edit#), a google doc of things related to our project in full version.
    * [COSC 490_Project Posture](https://docs.google.com/presentation/d/1cfuVeE14G9vV4S8qKKgroqwdNNoAP2vRqOGpF-i5RBg/edit#slide=id.gd62683932d_6_79), a google slide for Capstone Project presentation.
    * [project_document](https://docs.google.com/document/d/10KtgQHE-h6mvhIXldY2FiXEathW0SQT0a4IE7J_cbfc/edit#), a google doc (some in Chinese) contains our temporary schedule, links when we share w/ each other for new information, steps, etc.
